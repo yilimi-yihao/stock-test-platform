@@ -1,0 +1,14 @@
+{
+  "tushare": {
+    "token": "b007202603301626230kiyv49n2jf3pns8",
+    "api_url": "http://api.tushare.pro",
+    "enabled": true
+  },
+  "database": {
+    "path": "data/a_share.db"
+  },
+  "import": {
+    "default_start_date": "20100101",
+    "batch_size": 100
+  }
+}
