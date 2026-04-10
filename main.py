@@ -5,9 +5,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 if __name__ == "__main__":
-    # 检查是否要启动 GUI
     if len(sys.argv) > 1 and sys.argv[1] == "gui":
-        from sql_tool.gui import main as gui_main
+        from sql_tool.gui.desktop import main as gui_main
         gui_main()
     else:
         from sql_tool.cli import main as cli_main

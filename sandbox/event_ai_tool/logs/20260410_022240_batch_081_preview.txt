@@ -1,0 +1,178 @@
+范围: 2027-01-01 ~ 2027-06-30  (第9年上半年第1次)
+
+=== 节假日 (20 条) ===
+
+  [2027-01-01] 元旦  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.85] 酒店餐饮
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 白酒
+     -> [direct/industry rel=0.70] 航空
+
+  [2027-01-28] 春节  休市=True
+     -> [direct/industry rel=0.95] 旅游服务
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.85] 白酒
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.75] 航空
+
+  [2027-04-04] 清明节  休市=True
+     -> [direct/industry rel=0.85] 旅游景点
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.70] 白酒
+     -> [direct/industry rel=0.65] 酒店餐饮
+     -> [direct/industry rel=0.60] 航空
+
+  [2027-05-01] 劳动节  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.85] 酒店餐饮
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 航空
+     -> [direct/industry rel=0.70] 食品
+
+  [2027-05-31] 端午节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [direct/industry rel=0.75] 酒店餐饮
+     -> [direct/industry rel=0.70] 白酒
+     -> [direct/industry rel=0.65] 百货
+
+  [2027-09-15] 中秋节  休市=True
+     -> [direct/industry rel=0.95] 食品
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [direct/industry rel=0.75] 酒店餐饮
+     -> [direct/industry rel=0.70] 白酒
+     -> [direct/industry rel=0.65] 百货
+
+  [2027-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.95] 旅游服务
+     -> [direct/industry rel=0.90] 航空
+     -> [direct/industry rel=0.85] 酒店餐饮
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 食品
+
+  [2027-03-08] 妇女节  休市=False
+     -> [direct/industry rel=0.85] 服饰
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 日用化工
+     -> [direct/industry rel=0.70] 食品
+     -> [direct/industry rel=0.65] 旅游景点
+
+  [2027-06-01] 儿童节  休市=False
+     -> [direct/industry rel=0.90] 文教休闲
+     -> [direct/industry rel=0.85] 百货
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.75] 服饰
+     -> [phonetic/industry rel=0.50] 文教休闲
+
+  [2027-05-18] 518博物馆日  休市=False
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [direct/industry rel=0.75] 文教休闲
+     -> [direct/industry rel=0.70] 酒店餐饮
+     -> [direct/industry rel=0.65] 百货
+     -> [direct/industry rel=0.60] 食品
+
+  [2027-06-18] 618购物节  休市=False
+     -> [direct/industry rel=0.95] 百货
+     -> [direct/industry rel=0.90] 仓储物流
+     -> [direct/industry rel=0.85] 服饰
+     -> [direct/industry rel=0.80] 食品
+     -> [indirect/industry rel=0.60] 仓储物流
+
+  [2027-08-08] 七夕节  休市=False
+     -> [direct/industry rel=0.85] 服饰
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 酒店餐饮
+     -> [direct/industry rel=0.70] 食品
+     -> [phonetic/industry rel=0.20] 红黄酒
+
+  [2027-10-11] 重阳节  休市=False
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.75] 旅游景点
+     -> [direct/industry rel=0.70] 酒店餐饮
+     -> [direct/industry rel=0.65] 百货
+     -> [direct/industry rel=0.60] 医疗保健
+
+  [2026-12-12] 双十二  休市=False
+
+  [2027-12-22] 冬至  休市=False
+     -> [direct/industry rel=0.85] 食品
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.75] 百货
+     -> [direct/industry rel=0.70] 白酒
+     -> [phonetic/industry rel=0.30] 食品
+
+  [2027-12-25] 圣诞节  休市=False
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.85] 服饰
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.75] 酒店餐饮
+     -> [indirect/industry rel=0.40] 影视音像
+
+  [2026-11-26] 美国感恩节  休市=False
+
+  [2027-06-07] 高考季  休市=False
+     -> [direct/industry rel=0.85] 文教休闲
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.75] 医疗保健
+     -> [direct/industry rel=0.70] 酒店餐饮
+     -> [direct/industry rel=0.65] 百货
+
+  [2027-07-15] 毕业季  休市=False
+     -> [direct/industry rel=0.85] 文教休闲
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.75] 旅游景点
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.65] 食品
+
+  [2027-09-01] 开学季  休市=False
+     -> [direct/industry rel=0.90] 文教休闲
+     -> [direct/industry rel=0.85] 百货
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.75] 食品
+     -> [direct/industry rel=0.70] 酒店餐饮
+
+
+=== 重大事件 (6 条) ===
+
+  [2027-03-05] 全国两会  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.85] 证券
+     -> [direct/industry rel=0.80] 建筑工程
+     -> [direct/industry rel=0.75] 医疗保健
+     -> [direct/industry rel=0.70] 新型电力
+
+  [2027-04-15] 广交会  [expo]
+     -> [direct/industry rel=0.90] 服饰
+     -> [direct/industry rel=0.85] 电气设备
+     -> [direct/industry rel=0.80] 日用化工
+     -> [direct/industry rel=0.75] 仓储物流
+     -> [direct/industry rel=0.70] 航空
+
+  [2027-05-20] 世界人工智能大会  [expo]
+     -> [direct/industry rel=0.95] 软件服务
+     -> [direct/industry rel=0.90] 半导体
+     -> [direct/industry rel=0.85] 通信设备
+     -> [direct/industry rel=0.80] 元器件
+     -> [direct/industry rel=0.75] 汽车整车
+
+  [2027-06-15] FOMC议息  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.85] 证券
+     -> [direct/industry rel=0.80] 黄金
+     -> [direct/industry rel=0.75] 航空
+     -> [direct/industry rel=0.70] 汽车整车
+
+  [2027-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.85] 食品
+     -> [direct/industry rel=0.80] 汽车整车
+     -> [direct/industry rel=0.75] 仓储物流
+     -> [direct/industry rel=0.70] 航空
+
+  [2027-12-10] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.95] 银行
+     -> [direct/industry rel=0.90] 证券
+     -> [direct/industry rel=0.85] 建筑工程
+     -> [direct/industry rel=0.80] 新型电力
+     -> [direct/industry rel=0.75] 汽车整车

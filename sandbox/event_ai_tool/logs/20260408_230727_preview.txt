@@ -1,0 +1,175 @@
+范围: 2019-01-01 ~ 2027-12-26
+
+=== 节假日 (21 条) ===
+
+  [2019-01-01] 元旦  休市=True
+     法定假日
+     -> [direct/industry rel=0.90] 旅游景点  假期旅游需求增加
+     -> [direct/industry rel=0.85] 酒店餐饮  假期消费提升
+     -> [direct/industry rel=0.80] 百货  节假日购物需求
+
+  [2019-02-04] 春节  休市=True
+     法定假日，通常休市多日
+     -> [direct/industry rel=0.95] 白酒  春节送礼和聚餐需求
+     -> [direct/industry rel=0.90] 旅游服务  春节旅游旺季
+     -> [direct/industry rel=0.85] 食品  节日食品消费增加
+     -> [direct/industry rel=0.80] 航空  春运出行需求
+     -> [direct/industry rel=0.75] 服饰  新年服装消费
+
+  [2019-04-05] 清明节  休市=True
+     法定假日
+     -> [direct/industry rel=0.85] 旅游景点  踏青旅游需求
+     -> [direct/industry rel=0.70] 食品  节日食品消费
+
+  [2019-05-01] 劳动节  休市=True
+     法定假日
+     -> [direct/industry rel=0.90] 旅游服务  五一假期旅游需求
+     -> [direct/industry rel=0.85] 酒店餐饮  假期消费提升
+
+  [2019-06-07] 端午节  休市=True
+     法定假日
+     -> [direct/industry rel=0.90] 食品  粽子等节日食品消费
+     -> [direct/industry rel=0.80] 旅游景点  假期旅游需求
+
+  [2019-09-13] 中秋节  休市=True
+     法定假日
+     -> [direct/industry rel=0.95] 食品  月饼等节日食品消费
+     -> [direct/industry rel=0.80] 旅游服务  假期旅游需求
+
+  [2019-10-01] 国庆假期  休市=True
+     法定假日，通常休市多日
+     -> [direct/industry rel=0.95] 旅游景点  国庆长假旅游需求
+     -> [direct/industry rel=0.90] 酒店餐饮  假期消费提升
+     -> [direct/industry rel=0.85] 航空  出行需求增加
+     -> [direct/industry rel=0.80] 百货  节假日购物需求
+
+  [2019-03-08] 妇女节  休市=False
+     交易日节日
+     -> [direct/industry rel=0.80] 服饰  女性消费需求增加
+     -> [direct/industry rel=0.75] 百货  节日促销活动
+
+  [2019-06-01] 儿童节  休市=False
+     交易日节日
+     -> [direct/industry rel=0.50] 文教休闲  儿童教育和娱乐需求
+     -> [direct/industry rel=0.70] 服饰  儿童服装消费
+     -> [direct/industry rel=0.60] 食品  儿童食品消费
+
+  [2019-05-18] 518博物馆日  休市=False
+     交易日节日
+     -> [direct/industry rel=0.60] 旅游景点  博物馆相关旅游需求
+
+  [2019-06-18] 618购物节  休市=False
+     交易日节日
+     -> [direct/industry rel=0.90] 百货  电商促销活动
+     -> [direct/industry rel=0.60] 仓储物流  物流需求增加
+     -> [direct/industry rel=0.80] 服饰  服装销售提升
+
+  [2019-08-07] 七夕节  休市=False
+     交易日节日，农历七月初七
+     -> [phonetic/industry rel=0.20] 红黄酒  谐音鹊桥，情感联想
+     -> [direct/industry rel=0.70] 服饰  节日消费需求
+     -> [direct/industry rel=0.60] 百货  促销活动
+
+  [2019-10-07] 重阳节  休市=False
+     交易日节日
+     -> [direct/industry rel=0.60] 食品  节日食品消费
+     -> [direct/industry rel=0.50] 医疗保健  老年人健康关注
+
+  [2019-11-11] 双十一  休市=False
+     交易日节日
+     -> [direct/industry rel=0.95] 百货  电商大促
+     -> [direct/industry rel=0.60] 仓储物流  物流需求激增
+     -> [direct/industry rel=0.85] 服饰  服装销售提升
+
+  [2019-12-12] 双十二  休市=False
+     交易日节日
+     -> [direct/industry rel=0.80] 百货  电商促销活动
+     -> [direct/industry rel=0.50] 仓储物流  物流需求增加
+
+  [2019-12-22] 冬至  休市=False
+     交易日节日
+     -> [phonetic/industry rel=0.30] 食品  羊肉等食品消费联想
+     -> [direct/industry rel=0.70] 食品  节日食品消费
+
+  [2019-12-25] 圣诞节  休市=False
+     交易日节日
+     -> [direct/industry rel=0.80] 百货  节日促销活动
+     -> [direct/industry rel=0.40] 影视音像  节日娱乐消费
+     -> [direct/industry rel=0.60] 食品  节日食品消费
+
+  [2019-11-28] 美国感恩节  休市=False
+     交易日节日，11月第四周四
+     -> [direct/industry rel=0.40] 食品  节日食品消费联想
+
+  [2019-06-05] 高考季  休市=False
+     季节节点，6月初
+     -> [direct/industry rel=0.70] 文教休闲  教育相关需求
+
+  [2019-07-15] 毕业季  休市=False
+     季节节点，7月中
+     -> [direct/industry rel=0.60] 旅游服务  毕业旅行需求
+     -> [direct/industry rel=0.50] 服饰  毕业服装消费
+
+  [2019-09-02] 开学季  休市=False
+     季节节点，9月初
+     -> [direct/industry rel=0.80] 文教休闲  教育用品需求
+     -> [direct/industry rel=0.60] 服饰  校服等服装消费
+
+
+=== 重大事件 (10 条) ===
+
+  [2019-03-05] 全国两会  [policy]  北京
+     重要政策会议
+     -> [direct/industry rel=0.90] 银行  金融政策影响
+     -> [direct/industry rel=0.85] 证券  资本市场政策
+     -> [direct/industry rel=0.80] 建筑工程  基建政策
+
+  [2019-12-10] 中央经济工作会议  [policy]  北京
+     重要经济政策会议
+     -> [direct/industry rel=0.90] 银行  货币政策影响
+     -> [direct/industry rel=0.85] 证券  经济政策影响
+     -> [direct/industry rel=0.80] 建筑工程  投资政策
+
+  [2019-03-20] FOMC议息  [policy]  美国
+     美联储议息会议，代表性季度事件
+     -> [direct/industry rel=0.80] 银行  全球利率影响
+     -> [direct/industry rel=0.70] 黄金  避险需求
+
+  [2019-11-05] 进博会  [expo]  上海
+     中国国际进口博览会
+     -> [direct/industry rel=0.80] 百货  进口商品贸易
+     -> [direct/industry rel=0.70] 食品  进口食品展示
+
+  [2019-04-15] 广交会  [expo]  广州
+     春季广交会
+     -> [direct/industry rel=0.80] 服饰  服装贸易
+     -> [direct/industry rel=0.70] 电气设备  机电产品展示
+
+  [2019-01-08] CES  [expo]  美国拉斯维加斯
+     国际消费电子展
+     -> [direct/industry rel=0.90] 半导体  电子技术展示
+     -> [direct/industry rel=0.85] 通信设备  通信技术
+     -> [direct/industry rel=0.80] 元器件  电子元件
+
+  [2019-05-16] 世界人工智能大会  [expo]  上海
+     人工智能领域盛会
+     -> [direct/industry rel=0.90] 软件服务  AI软件应用
+     -> [direct/industry rel=0.85] 半导体  AI芯片技术
+
+  [2020-07-24] 东京奥运会  [sports]  日本东京
+     奥运会在时间范围内
+     -> [direct/industry rel=0.90] 影视音像  体育转播和广告
+     -> [direct/industry rel=0.80] 服饰  运动服装需求
+     -> [direct/industry rel=0.70] 旅游服务  体育旅游
+
+  [2022-11-20] 卡塔尔世界杯  [sports]  卡塔尔
+     世界杯在时间范围内
+     -> [direct/industry rel=0.95] 影视音像  体育转播和广告
+     -> [direct/industry rel=0.90] 啤酒  观赛消费
+     -> [direct/industry rel=0.70] 旅游服务  体育旅游
+
+  [2023-09-23] 杭州亚运会  [sports]  中国杭州
+     亚运会在时间范围内
+     -> [direct/industry rel=0.90] 建筑工程  场馆建设
+     -> [direct/industry rel=0.80] 旅游服务  赛事旅游
+     -> [direct/industry rel=0.70] 服饰  运动服装

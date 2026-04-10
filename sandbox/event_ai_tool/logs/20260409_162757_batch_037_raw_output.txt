@@ -1,0 +1,602 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2025-01-01",
+            "name": "元旦",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "元旦假期旅游需求增加",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期餐饮住宿消费提升",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日零售消费增长",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-01-29",
+            "name": "春节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，通常为多日连续假期",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "春节礼品和聚会消费带动白酒需求",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "春节长假旅游出行高峰",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "春运期间航空客运量大幅增加",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "春节食品消费旺盛",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "春节档电影票房通常较高",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-04-04",
+            "name": "清明节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "清明假期短途旅游需求增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期餐饮住宿消费提升",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-05-01",
+            "name": "劳动节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "五一假期旅游需求旺盛",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期餐饮住宿消费提升",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日零售消费增长",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-05-31",
+            "name": "端午节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "端午节粽子等食品消费增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "端午假期短途旅游需求",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，通常为多日连续假期",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "国庆长假旅游需求大幅增加",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "国庆期间航空客运量提升",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期餐饮住宿消费旺盛",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日零售消费增长",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "国庆档电影票房通常较高",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-03-08",
+            "name": "妇女节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "妇女节促销带动零售消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "女性服饰消费增加",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-06-01",
+            "name": "儿童节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "儿童节相关教育和娱乐消费",
+                    "relevance": 0.5
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "儿童节玩具等零售消费",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-05-18",
+            "name": "518博物馆日",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "博物馆日可能带动文化旅游",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-06-18",
+            "name": "618购物节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "618促销带动零售消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "购物节物流需求增加",
+                    "relevance": 0.6
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "服装类商品促销",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-07-31",
+            "name": "七夕节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市，农历七月初七",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "红黄酒",
+                    "code": "",
+                    "notes": "谐音鹊桥，联想红黄酒消费",
+                    "relevance": 0.2
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "七夕节礼品消费增加",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "七夕餐饮和住宿需求",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-10-29",
+            "name": "重阳节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "重阳节登高等旅游活动",
+                    "relevance": 0.6
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "关注老年人健康相关",
+                    "relevance": 0.5
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-12-22",
+            "name": "冬至",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常开市",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "联想羊肉等冬季食品消费",
+                    "relevance": 0.3
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "冬至聚餐需求",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-06-01",
+            "name": "高考季",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "季节节点，A股正常开市，6月初",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "高考相关教育和培训需求",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-07-15",
+            "name": "毕业季",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "季节节点，A股正常开市，7月中",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "毕业旅行需求增加",
+                    "relevance": 0.65
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "毕业聚餐和住宿",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-09-01",
+            "name": "开学季",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "季节节点，A股正常开市，9月初",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "开学文具和教育消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "开学季零售促销",
+                    "relevance": 0.7
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2025-03-05",
+            "name": "全国两会",
+            "category": "policy",
+            "location": "北京",
+            "notes": "重要政策会议，通常在3月初举行",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "两会可能讨论金融政策",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建投资相关议题",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "医疗卫生政策讨论",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2025-04-15",
+            "name": "广交会",
+            "category": "expo",
+            "location": "广州",
+            "notes": "春季广交会，通常在4月举行",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "服装出口贸易相关",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "电气设备",
+                    "code": "",
+                    "notes": "机电产品出口展示",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "贸易物流需求增加",
+                    "relevance": 0.65
+                }
+            ]
+        },
+        {
+            "event_date": "2025-05-20",
+            "name": "世界人工智能大会",
+            "category": "expo",
+            "location": "上海",
+            "notes": "通常在5月举行",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "软件服务",
+                    "code": "",
+                    "notes": "AI软件和技术展示",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "半导体",
+                    "code": "",
+                    "notes": "AI芯片相关",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "通信设备",
+                    "code": "",
+                    "notes": "5G和物联网技术",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "event_date": "2025-06-15",
+            "name": "FOMC议息",
+            "category": "policy",
+            "location": "美国",
+            "notes": "每季度代表性1次，假设为6月会议",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "黄金",
+                    "code": "",
+                    "notes": "美联储利率决策影响金价",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "全球货币政策影响",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "市场波动和投资情绪",
+                    "relevance": 0.65
+                }
+            ]
+        }
+    ]
+}

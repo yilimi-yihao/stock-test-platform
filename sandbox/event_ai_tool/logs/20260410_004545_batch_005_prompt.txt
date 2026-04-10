@@ -1,0 +1,24 @@
+生成 2019-01-01 到 2019-06-30 对A股有板块主题影响的节假日和重大事件。
+
+【节假日必须覆盖（时间范围内的）】
+法定假日(is_trading_closed=true)：元旦、春节、清明节、劳动节、端午节、中秋节、国庆假期
+交易日节日(is_trading_closed=false)：妇女节(3/8)、儿童节(6/1)、518博物馆日、618购物节(6/18)、七夕节(农历七月初七)、重阳节、双十一(11/11)、双十二(12/12)、冬至、圣诞节(12/25)、美国感恩节(11月第四周四)
+季节节点(is_trading_closed=false)：高考季(6月初)、毕业季(7月中)、开学季(9月初)
+
+【重大事件（每类选最重要的）】
+政策会议：全国两会(3月)、中央经济工作会议(12月)、FOMC议息(每季度代表性1次)
+博览会：进博会(11月)、广交会(4月/10月)、CES、世界人工智能大会(5月)
+体育赛事：奥运/世界杯/亚运会（如在时间范围内）
+
+【联想规则（必须包含谐音/情感类，impact_level=phonetic）】
+必须出现：七夕->红黄酒(谐音鹊桥,rel=0.2)、冬至->食品(羊肉,rel=0.3)、儿童节->文教休闲(rel=0.5)
+其他可选：感恩节->食品(rel=0.4)、圣诞->影视音像(rel=0.4)、618/双十一->物流(rel=0.6)
+
+ target_type=industry时，target_name只能从以下选：
+白酒、旅游景点、旅游服务、酒店餐饮、食品、影视音像、航空、机场、服饰、百货、超市连锁、医疗保健、银行、证券、软件服务、通信设备、半导体、汽车整车、建筑工程、黄金、啤酒、文教休闲、红黄酒、日用化工、化学制药、生物制药、元器件、电气设备、新型电力、仓储物流
+
+relevance评分：0.9-1.0强相关|0.7-0.9较强|0.5-0.7中等|0.3-0.5弱|0.1-0.3谐音联想
+每条最多5条mappings，按relevance降序；连续假期只记录1条
+
+输出JSON：{"holidays":[{"holiday_date":"YYYY-MM-DD","name":"假期","market_scope":"CN","is_trading_closed":true,"notes":"说明","mappings":[{"impact_level":"direct","target_type":"industry","target_name":"白酒","code":"","notes":"","relevance":0.9}]}],"major_events":[{"event_date":"YYYY-MM-DD","name":"事件","category":"policy","location":"","notes":"说明","mappings":[{"impact_level":"direct","target_type":"industry","target_name":"银行","code":"","notes":"","relevance":0.8}]}]}
+impact_level: direct/indirect/phonetic | target_type: industry/concept/stock | category: sports/expo/policy/economy/other | relevance: 0.0-1.0浮点数

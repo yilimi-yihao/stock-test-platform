@@ -1,0 +1,73 @@
+范围: 2021-01-01 ~ 2021-06-30  (第3年上半年第3次)
+
+=== 节假日 (12 条) ===
+
+  [2021-01-01] 元旦  休市=True
+     -> [direct/industry rel=0.85] 旅游景点
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.75] 百货
+
+  [2021-02-11] 春节  休市=True
+     -> [direct/industry rel=0.95] 白酒
+     -> [direct/industry rel=0.90] 旅游服务
+     -> [direct/industry rel=0.85] 食品
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.75] 服饰
+
+  [2021-04-04] 清明节  休市=True
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [direct/industry rel=0.70] 食品
+
+  [2021-05-01] 劳动节  休市=True
+     -> [direct/industry rel=0.90] 旅游服务
+     -> [direct/industry rel=0.85] 酒店餐饮
+     -> [direct/industry rel=0.80] 航空
+
+  [2021-06-14] 端午节  休市=True
+     -> [direct/industry rel=0.85] 食品
+     -> [direct/industry rel=0.75] 旅游景点
+
+  [2021-03-08] 妇女节  休市=False
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 服饰
+
+  [2021-06-01] 儿童节  休市=False
+     -> [direct/industry rel=0.50] 文教休闲
+     -> [direct/industry rel=0.70] 百货
+
+  [2021-05-18] 518博物馆日  休市=False
+     -> [direct/industry rel=0.60] 旅游景点
+
+  [2021-06-18] 618购物节  休市=False
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2021-08-14] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.70] 服饰
+
+  [2021-12-21] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+
+  [2021-06-01] 高考季  休市=False
+     -> [direct/industry rel=0.60] 文教休闲
+
+
+=== 重大事件 (4 条) ===
+
+  [2021-03-05] 全国两会  [policy]
+     -> [direct/industry rel=0.80] 银行
+     -> [direct/industry rel=0.75] 建筑工程
+     -> [direct/industry rel=0.70] 医疗保健
+
+  [2021-04-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.75] 电气设备
+
+  [2021-05-07] 世界人工智能大会  [expo]
+     -> [direct/industry rel=0.85] 软件服务
+     -> [direct/industry rel=0.80] 半导体
+
+  [2021-06-16] FOMC议息  [policy]
+     -> [indirect/industry rel=0.70] 证券
+     -> [indirect/industry rel=0.65] 黄金

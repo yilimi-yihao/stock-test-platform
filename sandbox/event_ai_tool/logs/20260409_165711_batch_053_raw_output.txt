@@ -1,0 +1,367 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2027-07-01",
+            "name": "香港回归纪念日",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "非交易日节日，可能影响相关板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "纪念活动可能带动旅游",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-07-07",
+            "name": "七夕节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，农历七月初七",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "红黄酒",
+                    "code": "",
+                    "notes": "谐音鹊桥，传统节日消费",
+                    "relevance": 0.2
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "节日礼品和服装消费",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-08-01",
+            "name": "建军节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "非交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "军事相关活动可能影响",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-09-10",
+            "name": "教师节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "非交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "教育相关消费",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-09-21",
+            "name": "中秋节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，可能连休",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "月饼等节日食品消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "假期旅游需求",
+                    "relevance": 0.8
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，通常连休7天",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "长假旅游高峰",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "住宿和餐饮需求增加",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行交通需求",
+                    "relevance": 0.85
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-10-28",
+            "name": "重阳节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "传统节日食品消费",
+                    "relevance": 0.5
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-11-11",
+            "name": "双十一",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，购物节",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "零售销售高峰",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求激增",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-12-12",
+            "name": "双十二",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，购物节",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "超市连锁",
+                    "code": "",
+                    "notes": "零售促销活动",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-12-21",
+            "name": "冬至",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "传统吃羊肉等习俗",
+                    "relevance": 0.3
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-12-25",
+            "name": "圣诞节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "节日娱乐消费",
+                    "relevance": 0.4
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "礼品和服装销售",
+                    "relevance": 0.6
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2027-09-01",
+            "name": "开学季",
+            "category": "other",
+            "location": "全国",
+            "notes": "季节节点，教育相关消费增加",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "学习用品和培训需求",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2027-10-15",
+            "name": "广交会",
+            "category": "expo",
+            "location": "广州",
+            "notes": "秋季广交会，国际贸易盛会",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "纺织品和服装出口",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "商务出行增加",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2027-11-05",
+            "name": "进博会",
+            "category": "expo",
+            "location": "上海",
+            "notes": "中国国际进口博览会",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "进口食品展示和交易",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流和供应链服务",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2027-11-25",
+            "name": "美国感恩节",
+            "category": "other",
+            "location": "美国",
+            "notes": "美国节日，可能影响全球市场",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费联想",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "event_date": "2027-12-01",
+            "name": "世界艾滋病日",
+            "category": "other",
+            "location": "全球",
+            "notes": "健康宣传日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "健康相关话题关注",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2027-12-15",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "北京",
+            "notes": "年度重要经济政策会议",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策可能调整",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "市场政策影响",
+                    "relevance": 0.8
+                }
+            ]
+        }
+    ]
+}

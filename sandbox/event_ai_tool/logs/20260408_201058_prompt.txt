@@ -1,0 +1,23 @@
+生成 2025-01-08 到 2027-04-08 期间，对 A 股市场有板块主题影响的节假日和重大事件。
+
+规则：
+- 连续假期（如春节7天、国庆7天）只记录1条，holiday_date 填假期第一天，is_trading_closed=true
+- 节假日名称用假期总称（如「国庆假期」「春节假期」），不要每天单独列一条
+- 重大事件：国际体育赛事、博览会、政策会议窗口（两会、中央经济工作会议等），每类选最重要的
+- 每条记录的 mappings 最多4条
+
+【关键约束】target_type 的三种类型：
+1. target_type="industry" 时，target_name 必须从以下行业名中选择（这是 A 股行业分类，用于与股票库关联）：
+   IT设备、专用机械、中成药、乳制品、互联网、仓储物流、供气供热、保险、元器件、全国地产、公共交通、公路、其他商业、其他建材、农业综合、农用机械、农药化肥、出版业、化学制药、化工原料、化工机械、化纤、区域地产、医疗保健、医药商业、半导体、商品城、商贸代理、啤酒、园区开发、塑料、多元金融、家居用品、家用电器、小金属、工程机械、广告包装、建筑工程、影视音像、房产服务、批发业、摩托车、文教休闲、新型电力、旅游景点、旅游服务、日用化工、普钢、服饰、机场、机床制造、机械基件、林业、染料涂料、橡胶、水力发电、水务、水泥、水运、汽车整车、汽车服务、汽车配件、渔业、港口、火力发电、焦炭加工、煤炭开采、特种钢、环境保护、玻璃、生物制药、电信运营、电器仪表、电器连锁、电气设备、白酒、百货、石油加工、石油开采、石油贸易、矿物制品、种植业、空运、红黄酒、纺织、纺织机械、综合类、航空、船舶、装修装饰、证券、超市连锁、路桥、软件服务、软饮料、轻工机械、运输设备、通信设备、造纸、酒店餐饮、钢加工、铁路、铅锌、铜、铝、银行、陶瓷、食品、饲料、黄金
+2. target_type="concept" 时，target_name 填概念板块名（如「新能源汽车」「人工智能」「军工」）
+3. target_type="stock" 时，target_name 填股票名称，code 填6位股票代码
+
+优先使用 target_type="industry" 以便和股票数据库关联查询。
+
+严格输出JSON，不加 markdown 代码块：
+{"holidays":[{"holiday_date":"YYYY-MM-DD","name":"假期名称","market_scope":"CN","is_trading_closed":true,"notes":"板块影响说明","mappings":[{"impact_level":"direct","target_type":"industry","target_name":"白酒","code":"","notes":"理由"}]}],"major_events":[{"event_date":"YYYY-MM-DD","name":"事件名称","category":"sports","location":"地点","notes":"板块影响说明","mappings":[{"impact_level":"direct","target_type":"industry","target_name":"体育用品","code":"","notes":"理由"}]}]}
+
+枚举（严格遵守）：
+- impact_level: direct / indirect / phonetic
+- target_type: industry / concept / stock
+- category: sports / expo / policy / economy / other

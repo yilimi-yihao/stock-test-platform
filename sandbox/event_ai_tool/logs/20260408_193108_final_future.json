@@ -1,0 +1,269 @@
+{
+  "mode": "future",
+  "start": "2026-04-08",
+  "end": "2027-04-08",
+  "holidays_count": 7,
+  "events_count": 4,
+  "format_errors": [],
+  "write_ok": 11,
+  "write_err": 0,
+  "data": {
+    "holidays": [
+      {
+        "holiday_date": "2026-04-04",
+        "name": "清明节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，假期可能带动旅游、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "假期出行需求增加，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费",
+            "code": "",
+            "notes": "假期购物和餐饮消费可能被关注"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2026-05-01",
+        "name": "劳动节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，假期可能促进旅游、零售板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "长假出行，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "假期消费可能被关注"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2026-06-08",
+        "name": "端午节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，假期可能影响食品、旅游板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "食品",
+            "code": "",
+            "notes": "粽子等节日食品销售，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "短途旅游可能被关注"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2026-09-15",
+        "name": "中秋节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，假期可能带动食品、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "食品",
+            "code": "",
+            "notes": "月饼等节日食品，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费",
+            "code": "",
+            "notes": "节日送礼和聚餐可能被关注"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2026-10-01",
+        "name": "国庆假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，长假可能显著影响旅游、交通、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "黄金周出行高峰，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "交通",
+            "code": "",
+            "notes": "航空、铁路等可能被关注"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2027-01-01",
+        "name": "元旦假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，假期可能影响零售、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "新年促销，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费",
+            "code": "",
+            "notes": "节日消费可能被关注"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2027-01-28",
+        "name": "春节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "预计A股休市，长假可能显著影响旅游、食品、零售板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "春运和假期出行，预计受益"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "食品",
+            "code": "",
+            "notes": "年货销售可能被关注"
+          }
+        ]
+      }
+    ],
+    "major_events": [
+      {
+        "event_date": "2026-06-10",
+        "name": "2026年世界杯",
+        "category": "sports",
+        "location": "全球多地",
+        "notes": "预计体育赛事可能带动相关板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "体育",
+            "code": "",
+            "notes": "赛事关注度高，预计受益"
+          },
+          {
+            "impact_level": "indirect",
+            "target_type": "concept",
+            "target_name": "传媒",
+            "code": "",
+            "notes": "转播和广告可能被关注"
+          }
+        ]
+      },
+      {
+        "event_date": "2026-09-10",
+        "name": "杭州亚运会",
+        "category": "sports",
+        "location": "中国杭州",
+        "notes": "预计大型体育赛事可能影响本地经济和相关板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "体育",
+            "code": "",
+            "notes": "赛事举办，预计受益"
+          },
+          {
+            "impact_level": "indirect",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "赛事带动旅游可能被关注"
+          }
+        ]
+      },
+      {
+        "event_date": "2026-11-05",
+        "name": "中国国际进口博览会",
+        "category": "expo",
+        "location": "中国上海",
+        "notes": "预计大型展会可能促进贸易和消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "贸易",
+            "code": "",
+            "notes": "进口商品展示，预计受益"
+          },
+          {
+            "impact_level": "indirect",
+            "target_type": "concept",
+            "target_name": "消费",
+            "code": "",
+            "notes": "展会带动消费可能被关注"
+          }
+        ]
+      },
+      {
+        "event_date": "2027-03-05",
+        "name": "全国两会",
+        "category": "policy",
+        "location": "中国北京",
+        "notes": "预计政策发布可能影响多个板块，如科技、环保",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "科技",
+            "code": "",
+            "notes": "政策支持预期，预计受益"
+          },
+          {
+            "impact_level": "indirect",
+            "target_type": "concept",
+            "target_name": "环保",
+            "code": "",
+            "notes": "绿色发展议题可能被关注"
+          }
+        ]
+      }
+    ]
+  }
+}

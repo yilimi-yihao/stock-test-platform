@@ -1,0 +1,58 @@
+你是A股事件库数据清理助手。请检查以下事件/节假日记录，识别明显错误、时间不对齐、同年重复同一节日/事件、或语义高度重复导致应删除的候选项。
+
+要求：
+1. 只输出 JSON 对象，不要解释文本。
+2. 只返回建议删除的候选项；如果没有问题，返回 {"candidates":[]}。
+3. reason 必须简短明确，说明为什么应删除该条。
+4. 对于重复项，优先保留更合理/更早的那一条，其余列为候选删除。
+5. 不要猜测数据库外的信息；只能根据常识和给定记录判断明显问题。
+
+输出格式：
+{
+  "candidates": [
+    {"type":"节假日","id":123,"reason":"2027年重复重阳节，疑似错误重复"},
+    {"type":"事件","id":456,"reason":"与同年同主题事件高度重复，保留另一条即可"}
+  ]
+}
+
+待检查记录：
+- type=节假日; id=780; date=2026-12-25; name=圣诞节; category=交易; mappings=
+- type=节假日; id=765; date=2026-12-22; name=冬至; category=交易; mappings=
+- type=节假日; id=805; date=2026-12-21; name=冬至; category=交易; mappings=
+- type=节假日; id=804; date=2026-12-12; name=双十二; category=交易; mappings=
+- type=节假日; id=781; date=2026-11-26; name=美国感恩节; category=交易; mappings=
+- type=节假日; id=803; date=2026-11-11; name=双十一; category=交易; mappings=
+- type=节假日; id=778; date=2026-10-21; name=重阳节; category=交易; mappings=
+- type=节假日; id=764; date=2026-10-11; name=重阳节; category=交易; mappings=
+- type=节假日; id=1837; date=2026-10-09; name=重阳节; category=交易; mappings=
+- type=节假日; id=811; date=2026-10-04; name=中秋节; category=休市; mappings=
+- type=节假日; id=41; date=2026-10-01; name=国庆假期; category=休市; mappings=
+- type=节假日; id=52; date=2026-09-25; name=中秋节; category=休市; mappings=
+- type=节假日; id=40; date=2026-09-15; name=中秋节假期; category=休市; mappings=
+- type=节假日; id=800; date=2026-09-10; name=教师节; category=交易; mappings=
+- type=节假日; id=1815; date=2026-09-09; name=重阳节; category=交易; mappings=
+- type=节假日; id=1835; date=2026-09-08; name=中秋节; category=休市; mappings=
+- type=节假日; id=1814; date=2026-09-01; name=开学季; category=交易; mappings=
+- type=节假日; id=763; date=2026-08-20; name=七夕节; category=交易; mappings=
+- type=节假日; id=767; date=2026-07-15; name=毕业季; category=交易; mappings=
+- type=节假日; id=799; date=2026-07-07; name=七夕节; category=交易; mappings=
+- type=节假日; id=798; date=2026-07-01; name=建党节; category=交易; mappings=
+- type=节假日; id=758; date=2026-06-20; name=端午节; category=休市; mappings=
+- type=节假日; id=51; date=2026-06-19; name=端午节; category=休市; mappings=
+- type=节假日; id=762; date=2026-06-18; name=618购物节; category=交易; mappings=
+- type=节假日; id=1760; date=2026-06-09; name=端午节; category=休市; mappings=
+- type=节假日; id=39; date=2026-06-08; name=端午节假期; category=休市; mappings=
+- type=节假日; id=760; date=2026-06-01; name=儿童节; category=交易; mappings=
+- type=节假日; id=766; date=2026-06-01; name=高考季; category=交易; mappings=
+- type=节假日; id=761; date=2026-05-18; name=518博物馆日; category=交易; mappings=
+- type=节假日; id=38; date=2026-05-01; name=劳动节假期; category=休市; mappings=
+- type=节假日; id=50; date=2026-05-01; name=劳动节; category=休市; mappings=
+- type=节假日; id=49; date=2026-04-05; name=清明节; category=休市; mappings=
+- type=节假日; id=37; date=2026-04-04; name=清明节假期; category=休市; mappings=
+- type=节假日; id=759; date=2026-03-08; name=妇女节; category=交易; mappings=
+- type=节假日; id=47; date=2026-02-17; name=春节假期; category=休市; mappings=
+- type=节假日; id=755; date=2026-02-17; name=春节; category=休市; mappings=
+- type=节假日; id=36; date=2026-02-06; name=春节假期; category=休市; mappings=
+- type=节假日; id=35; date=2026-01-01; name=元旦假期; category=休市; mappings=
+- type=节假日; id=46; date=2026-01-01; name=元旦; category=休市; mappings=
+- type=节假日; id=729; date=2025-12-25; name=圣诞节; category=交易; mappings=

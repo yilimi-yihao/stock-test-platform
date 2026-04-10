@@ -1,0 +1,72 @@
+范围: 2025-07-01 ~ 2025-12-31  (第7年下半年第3次)
+
+=== 节假日 (12 条) ===
+
+  [2025-07-01] 建党节  休市=False
+     -> [direct/industry rel=0.60] 影视音像
+
+  [2025-07-07] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 百货
+
+  [2025-08-01] 建军节  休市=False
+     -> [direct/industry rel=0.50] 影视音像
+
+  [2025-09-03] 抗战胜利纪念日  休市=False
+     -> [direct/industry rel=0.50] 影视音像
+
+  [2025-09-10] 教师节  休市=False
+     -> [direct/industry rel=0.60] 文教休闲
+
+  [2025-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.70] 百货
+     -> [direct/industry rel=0.60] 食品
+
+  [2025-10-29] 重阳节  休市=False
+     -> [direct/industry rel=0.50] 食品
+     -> [direct/industry rel=0.40] 医疗保健
+
+  [2025-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.60] 仓储物流
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 食品
+     -> [direct/industry rel=0.60] 软件服务
+
+  [2025-11-27] 美国感恩节  休市=False
+     -> [phonetic/industry rel=0.40] 食品
+
+  [2025-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2025-12-22] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+
+  [2025-12-25] 圣诞节  休市=False
+     -> [phonetic/industry rel=0.40] 影视音像
+     -> [direct/industry rel=0.60] 百货
+
+
+=== 重大事件 (4 条) ===
+
+  [2025-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 电气设备
+
+  [2025-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.70] 食品
+     -> [direct/industry rel=0.60] 汽车整车
+
+  [2025-12-10] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.80] 银行
+     -> [direct/industry rel=0.70] 证券
+     -> [direct/industry rel=0.60] 建筑工程
+
+  [2025-12-17] FOMC议息  [policy]
+     -> [indirect/industry rel=0.70] 黄金
+     -> [indirect/industry rel=0.60] 银行

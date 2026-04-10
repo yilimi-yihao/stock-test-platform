@@ -1,152 +1,202 @@
 # 数据库格式与存储说明
 
-## 数据库文件
+## 数据库概览
 
-- 默认路径：`data/a_share.db`
-- 类型：SQLite 3
-- 路径可通过 `config/settings.json` 的 `database.path` 修改
+项目使用 6 个独立 SQLite 数据库，彼此无外键依赖，路径均可通过 `config/settings.json` 配置。
 
-## 核心表
+| 配置键 | 默认路径 | 职责 |
+|--------|----------|------|
+| `database.stock_path` | `data/a_share.db` | 股票核心库 |
+| `database.etf_path` | `data/etf.db` | ETF 库 |
+| `database.feature_path` | `data/a_share_features.db` | 股票扩展域 |
+| `database.event_path` | `data/event_calendar.db` | 事件库 |
+| `database.index_constituent_path` | `data/index_constituents.db` | 指数成分变化库 |
+| `database.index_forecast_path` | `data/index_forecasts.db` | 指数预测库 |
+
+---
+
+## a_share.db — 股票核心库
+
+代码：`src/sql_tool/db/stock.py`
 
 ### `stocks`
 
-存储股票基础信息和部分估值字段。
+股票基础信息，`code` 为主键。
 
-字段：
-
-- `code`：股票代码，主键
-- `name`：股票名称
-- `area`：地区
-- `industry`：行业
-- `list_date`：上市日期
-- `market_cap`：总市值
-- `circ_mv`：流通市值
-- `pe_ratio`：市盈率
-- `pb_ratio`：市净率
-- `turnover_rate`：换手率
-- `volume_ratio`：量比
-- `adj_factor`：复权因子
-- `updated_at`：最近更新时间
+| 字段 | 说明 |
+|------|------|
+| `code` | 股票代码（6位） |
+| `name` | 股票名称 |
+| `area` | 地区 |
+| `industry` | 行业 |
+| `list_date` | 上市日期 |
+| `market_cap` | 总市值 |
+| `circ_mv` | 流通市值 |
+| `pe_ratio` | 市盈率 |
+| `pb_ratio` | 市净率 |
+| `turnover_rate` | 换手率 |
+| `volume_ratio` | 量比 |
+| `adj_factor` | 复权因子 |
+| `updated_at` | 最近更新时间 |
 
 ### `daily_prices`
 
-存储股票日线数据。
+日线数据，`UNIQUE(code, date)`，`code` 引用 `stocks`。
 
-字段：
-
-- `code`
-- `date`
-- `open`
-- `high`
-- `low`
-- `close`
-- `volume`
-- `amount`
-
-约束：`UNIQUE(code, date)`
+| 字段 | 说明 |
+|------|------|
+| `code` | 股票代码 |
+| `date` | 交易日 |
+| `open/high/low/close` | OHLC |
+| `volume` | 成交量 |
+| `amount` | 成交额 |
 
 ### `fina_indicator`
 
-存储财务指标。
+财务指标，`UNIQUE(code, end_date)`。
 
-字段：
+字段：`ann_date`、`end_date`、`eps`、`roe`、`roa`、`gross_margin`、`net_margin`、`debt_to_assets`、`current_ratio`、`quick_ratio`
 
-- `ann_date`
-- `end_date`
-- `eps`
-- `roe`
-- `roa`
-- `gross_margin`
-- `net_margin`
-- `debt_to_assets`
-- `current_ratio`
-- `quick_ratio`
+### `income` / `balancesheet` / `cashflow`
 
-### `income`
+利润表、资产负债表、现金流表摘要，均 `UNIQUE(code, end_date)`。
 
-存储利润表摘要。
+---
 
-字段：
+## etf.db — ETF 库
 
-- `ann_date`
-- `end_date`
-- `revenue`
-- `operate_profit`
-- `net_profit`
+代码：`src/sql_tool/db/etf.py`
 
-### `balancesheet`
+### `etfs`
 
-存储资产负债表摘要。
+ETF 基础信息，`code` 为主键。字段包括 `name`、`market`、`fund_type`、`benchmark`、`management`、`list_date` 等。
 
-字段：
+### `etf_daily_prices`
 
-- `ann_date`
-- `end_date`
-- `total_assets`
-- `total_liab`
-- `total_equity`
-- `current_assets`
-- `current_liab`
-- `cash`
-- `accounts_payable`
-- `advance_receipts`
+ETF 日线，`UNIQUE(code, date)`。
 
-### `cashflow`
+---
 
-存储现金流量表摘要。
+## a_share_features.db — 股票扩展域
 
-字段：
+代码：`src/sql_tool/db/feature.py`
 
-- `ann_date`
-- `end_date`
-- `operate_cash_flow`
-- `invest_cash_flow`
-- `finance_cash_flow`
+与 `a_share.db` 无外键依赖，`code` 是公共查询键而非外键。
 
-## 索引
+### 主要表
 
-程序会自动创建以下索引：
+| 表名 | 内容 |
+|------|------|
+| `concepts` | 概念基表 |
+| `stock_concepts` | 股票-概念关联 |
+| `moneyflow` | 资金流向（按 code+date） |
+| `top_list_events` | 龙虎榜事件 |
+| `top_list_traders` | 龙虎榜席位 |
 
-- `idx_daily_code_date`
-- `idx_daily_date`
-- `idx_stocks_industry`
-- `idx_fina_code_date`
-- `idx_income_code_date`
-- `idx_bs_code_date`
-- `idx_cf_code_date`
+---
 
-## 查询行为
+## event_calendar.db — 事件库
 
-- 股票列表按 `code` 排序
-- 日线数据按 `date DESC` 返回
-- 财务数据按 `end_date DESC` 返回
-- 数据库统计可返回文件大小、表计数、更新时间和日期范围
+代码：`src/sql_tool/db/event.py`
+
+### 主要表
+
+| 表名 | 内容 |
+|------|------|
+| `holidays` | 节假日日历 |
+| `major_events` | 重大赛事 / 事件 |
+
+---
+
+## index_constituents.db — 指数成分变化库
+
+代码：`src/sql_tool/db/index_constituent.py`
+
+与其他库无外键依赖，不需要股票库或 ETF 库中存在对应 code。
+
+### `index_entities`
+
+指数实体注册表。
+
+| 字段 | 说明 |
+|------|------|
+| `index_id` | 自增主键 |
+| `index_name` | 指数名称（UNIQUE） |
+| `index_code` | 指数代码（如 000300） |
+| `category` | 分类，默认"宽基" |
+| `benchmark` | 基准说明 |
+| `source` | 数据来源 |
+
+注：`index_name` 是实体的唯一标识，中证100与中证A100视为同一实体（2024-10-28更名），数据库中统一以导入时的名称存储。
+
+### `index_constituent_changes`
+
+指数成分调整事件，一行一条调入/调出记录。
+
+| 字段 | 说明 |
+|------|------|
+| `change_id` | 自增主键 |
+| `index_id` | 关联 `index_entities` |
+| `announcement_date` | 公告日（YYYYMMDD） |
+| `trade_date` | 实施日（YYYYMMDD） |
+| `change_type` | `added` / `removed` |
+| `code` | 证券代码 |
+| `name` | 证券名称 |
+| `source_file` | 来源 CSV 文件名 |
+| `note` | 备注 |
+
+约束：`UNIQUE(index_id, trade_date, change_type, code)`
+
+### `index_constituent_snapshots` / `index_constituent_items`
+
+快照表，保存完整成分列表快照（非必须，当前主要用 changes 模型）。
+
+---
+
+## index_forecasts.db — 指数预测库
+
+代码：`src/sql_tool/db/index_forecast.py`
+
+### `index_forecasts`
+
+券商对指数调整的预测记录。
+
+| 字段 | 说明 |
+|------|------|
+| `forecast_id` | 自增主键 |
+| `index_name` | 指数名称 |
+| `forecast_month` | 预测生效月（YYYYMM） |
+| `forecast_direction` | `预测调入` / `预测调出` |
+| `stock_code` | 股票代码 |
+| `stock_name` | 股票名称 |
+| `broker_name` | 券商名称 |
+| `source_note` | 来源备注 |
+
+约束：`UNIQUE(index_name, forecast_month, forecast_direction, stock_code, broker_name)`
+
+---
 
 ## 更新策略
 
-### 导入
+### 股票 / ETF
 
-1. 拉取股票列表
-2. 对单只股票拉取基础信息、日线、财务指标、利润表、资产负债表、现金流
-3. 使用 `INSERT OR REPLACE` 写入数据库
+1. 拉取列表
+2. 对每只标的拉取基础信息 + 日线 + 财务
+3. 使用 `INSERT OR REPLACE` / `INSERT OR IGNORE` 写入
+4. 增量更新：读取最新日期，只写入更新后的新增数据
 
-### 增量更新
+### 指数成分变化
 
-1. 读取本地股票列表
-2. 查询每只股票的最新交易日
-3. 只写入更新后的新增日线
-4. 同步刷新对应财务表
+通过 `src/sql_tool/tools/index_change_importer.py` 从 CSV 导入，不依赖 Tushare。
+源 CSV 由 `src/sql_tool/tools/rebuild_index_csvs.py` 从 PDF / XLSX 原始公告重建。
 
-## 备份建议
+---
 
-直接备份 `data/a_share.db` 即可。
+## 备份
+
+直接备份 `data/` 目录下对应 `.db` 文件即可。
 
 ```bash
 cp data/a_share.db data/a_share.db.backup
+cp data/index_constituents.db data/index_constituents.db.backup
 ```
-
-## 相关代码
-
-- 数据库初始化与查询：`src/sql_tool/database.py`
-- 业务封装：`src/sql_tool/service.py`
-- API 暴露：`src/sql_tool/api.py`

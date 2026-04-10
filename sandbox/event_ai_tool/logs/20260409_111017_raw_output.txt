@@ -1,0 +1,1198 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2022-01-01",
+            "name": "元旦",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "元旦假期旅游需求增加",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期餐饮住宿消费提升",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日购物消费增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "假期出行需求上升",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "节假日聚会消费",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-01-31",
+            "name": "春节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，春节假期从1月31日至2月6日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "春节送礼和聚会消费",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "春节旅游旺季",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "年货和节日食品消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "聚餐和住宿需求增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "新年新衣消费",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-04-03",
+            "name": "清明节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，假期从4月3日至4月5日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "清明踏青旅游",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行需求增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "短途旅行消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "家庭聚会消费",
+                    "relevance": 0.65
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-04-30",
+            "name": "劳动节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，假期从4月30日至5月4日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "五一黄金周旅游",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期住宿和餐饮消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行需求旺盛",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日购物消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "聚会消费",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-06-03",
+            "name": "端午节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，假期从6月3日至6月5日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "粽子等节日食品消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "短途旅游",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "聚餐和住宿需求",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "家庭聚会消费",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行需求",
+                    "relevance": 0.65
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-09-10",
+            "name": "中秋节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，假期从9月10日至9月12日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "月饼等节日食品消费",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "中秋聚会送礼",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "中秋旅游",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "聚餐消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日购物",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市，假期从10月1日至10月7日",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "国庆长假旅游高峰",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "住宿和餐饮消费大幅增加",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行需求旺盛",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日购物消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "聚会消费",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-03-08",
+            "name": "妇女节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "女性服饰消费增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日促销购物",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "化妆品",
+                    "code": "",
+                    "notes": "女性化妆品消费",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "女性旅游活动",
+                    "relevance": 0.65
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-06-01",
+            "name": "儿童节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "儿童教育和娱乐消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "儿童服装消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "儿童食品和零食消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "儿童用品购物",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "谐音联想，儿童节与文教休闲相关",
+                    "relevance": 0.5
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-05-18",
+            "name": "518博物馆日",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "博物馆旅游和文化活动",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "教育和文化消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "相关旅游服务",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "周边消费",
+                    "relevance": 0.65
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "餐饮消费",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-06-18",
+            "name": "618购物节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "大型促销购物活动",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求激增",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "服装销售增加",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "食品消费提升",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "可选联想，618与物流相关",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-08-04",
+            "name": "七夕节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，农历七月初七，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "情侣服饰消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日购物和礼物",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "约会餐饮消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "情侣旅游活动",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "红黄酒",
+                    "code": "",
+                    "notes": "谐音联想，七夕谐音鹊桥，与红黄酒相关",
+                    "relevance": 0.2
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-10-04",
+            "name": "重阳节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，农历九月初九，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "重阳糕等节日食品",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "登高旅游活动",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "老年人健康关注",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "家庭聚餐",
+                    "relevance": 0.65
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "聚会消费",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-11-11",
+            "name": "双十一",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "大型促销购物活动",
+                    "relevance": 0.95
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求激增",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "服装销售增加",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "食品消费提升",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "可选联想，双十一与物流相关",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-12-12",
+            "name": "双十二",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "促销购物活动",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求增加",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "服装销售",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "食品消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "超市连锁",
+                    "code": "",
+                    "notes": "零售消费",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-12-22",
+            "name": "冬至",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "冬至传统食品消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "聚餐消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "聚会饮酒",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日购物",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "谐音联想，冬至与羊肉等食品相关",
+                    "relevance": 0.3
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-12-25",
+            "name": "圣诞节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日购物和礼物",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "聚餐和派对消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "节日服装消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "可选联想，圣诞与影视娱乐相关",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-11-24",
+            "name": "美国感恩节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，11月第四周四，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "感恩节食品消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "购物活动",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "聚餐消费",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "旅游活动",
+                    "relevance": 0.65
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "可选联想，感恩节与食品相关",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-06-01",
+            "name": "高考季",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "季节节点，6月初，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "高考相关教育和培训",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "考生健康关注",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "营养食品消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "考点周边住宿餐饮",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "考后旅游需求",
+                    "relevance": 0.65
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-07-15",
+            "name": "毕业季",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "季节节点，7月中，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "毕业教育和就业服务",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "毕业旅行",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "毕业聚餐和活动",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "毕业服装消费",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "聚餐食品消费",
+                    "relevance": 0.65
+                }
+            ]
+        },
+        {
+            "holiday_date": "2022-09-01",
+            "name": "开学季",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "季节节点，9月初，A股正常交易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "文教休闲",
+                    "code": "",
+                    "notes": "开学教育和用品消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "校服和服装购买",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "学习用品购物",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "校园食品消费",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "返校旅行",
+                    "relevance": 0.7
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2022-03-04",
+            "name": "全国两会",
+            "category": "policy",
+            "location": "北京",
+            "notes": "全国人民代表大会和中国人民政治协商会议，重要政策发布期",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策和经济政策影响",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "资本市场政策",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建和房地产政策",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "医疗卫生政策",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "新型电力",
+                    "code": "",
+                    "notes": "能源和环保政策",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2022-12-15",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "北京",
+            "notes": "年度经济工作会议，定调下一年经济政策",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "金融和经济政策影响",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "资本市场预期",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建投资政策",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "汽车整车",
+                    "code": "",
+                    "notes": "消费和产业政策",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "新型电力",
+                    "code": "",
+                    "notes": "能源政策",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2022-03-16",
+            "name": "FOMC议息",
+            "category": "policy",
+            "location": "美国",
+            "notes": "美联储议息会议，影响全球金融市场",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "利率政策影响",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "资本市场波动",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "黄金",
+                    "code": "",
+                    "notes": "避险资产价格",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "汇率影响",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "半导体",
+                    "code": "",
+                    "notes": "全球科技股影响",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2022-11-05",
+            "name": "进博会",
+            "category": "expo",
+            "location": "上海",
+            "notes": "中国国际进口博览会，促进国际贸易",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "进口商品消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target

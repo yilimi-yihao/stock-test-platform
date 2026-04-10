@@ -1,0 +1,527 @@
+{
+  "mode": "history",
+  "start": "2025-01-01",
+  "end": "2026-04-08",
+  "holidays_count": 8,
+  "events_count": 13,
+  "format_errors": [],
+  "write_ok": 21,
+  "write_err": 0,
+  "data": {
+    "holidays": [
+      {
+        "holiday_date": "2025-01-01",
+        "name": "元旦假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注消费、旅游板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "假期出行需求增加"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "节日消费提振"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2025-02-17",
+        "name": "春节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注消费、旅游、影视板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "白酒",
+            "code": "",
+            "notes": "节日宴请和礼品需求"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "影视",
+            "code": "",
+            "notes": "春节档电影票房预期"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "假期出行和旅游消费"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2025-04-04",
+        "name": "清明假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注旅游、殡葬板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "短途出行和踏青需求"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "殡葬",
+            "code": "",
+            "notes": "祭祀相关服务需求"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2025-05-01",
+        "name": "劳动节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注旅游、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "长假出行和旅游消费"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "节日促销和消费"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2025-06-02",
+        "name": "端午节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注食品、旅游板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "食品",
+            "code": "",
+            "notes": "粽子等节日食品销售"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "短途出行需求"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2025-09-29",
+        "name": "中秋国庆假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注旅游、消费、影视板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "长假出行和旅游消费"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "节日消费和促销"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "影视",
+            "code": "",
+            "notes": "国庆档电影票房预期"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2026-01-01",
+        "name": "元旦假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注消费、旅游板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "假期出行需求增加"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "节日消费提振"
+          }
+        ]
+      },
+      {
+        "holiday_date": "2026-02-06",
+        "name": "春节假期",
+        "market_scope": "CN",
+        "is_trading_closed": true,
+        "notes": "A股休市，历史上曾被关注消费、旅游、影视板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "白酒",
+            "code": "",
+            "notes": "节日宴请和礼品需求"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "影视",
+            "code": "",
+            "notes": "春节档电影票房预期"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "假期出行和旅游消费"
+          }
+        ]
+      }
+    ],
+    "major_events": [
+      {
+        "event_date": "2025-01-09",
+        "name": "CES 2025",
+        "category": "expo",
+        "location": "美国拉斯维加斯",
+        "notes": "消费电子展，历史上曾被关注科技、消费电子板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费电子",
+            "code": "",
+            "notes": "新产品发布和行业趋势"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "人工智能",
+            "code": "",
+            "notes": "AI技术应用展示"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-02-07",
+        "name": "2025年亚洲杯足球赛",
+        "category": "sports",
+        "location": "沙特阿拉伯",
+        "notes": "足球赛事，历史上曾被关注体育、传媒板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "体育",
+            "code": "",
+            "notes": "赛事相关赞助和转播"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "传媒",
+            "code": "",
+            "notes": "赛事转播权和广告"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-03-05",
+        "name": "2025年全国两会",
+        "category": "policy",
+        "location": "中国北京",
+        "notes": "全国人民代表大会和中国人民政治协商会议，历史上曾被关注政策相关板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "环保",
+            "code": "",
+            "notes": "环保政策预期"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "科技",
+            "code": "",
+            "notes": "科技创新政策支持"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-04-15",
+        "name": "2025年春季广交会",
+        "category": "expo",
+        "location": "中国广州",
+        "notes": "中国进出口商品交易会，历史上曾被关注外贸、制造板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "外贸",
+            "code": "",
+            "notes": "出口订单和贸易数据"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "制造",
+            "code": "",
+            "notes": "制造业订单和需求"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-05-22",
+        "name": "2025年世界人工智能大会",
+        "category": "expo",
+        "location": "中国上海",
+        "notes": "AI行业盛会，历史上曾被关注人工智能、科技板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "人工智能",
+            "code": "",
+            "notes": "AI技术进展和应用"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "科技",
+            "code": "",
+            "notes": "科技创新和投资"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-07-01",
+        "name": "香港回归纪念日",
+        "category": "other",
+        "location": "中国香港",
+        "notes": "纪念日，历史上曾被关注粤港澳大湾区、金融板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "粤港澳大湾区",
+            "code": "",
+            "notes": "区域发展和政策支持"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "金融",
+            "code": "",
+            "notes": "香港金融中心地位"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-08-08",
+        "name": "北京奥运会纪念日",
+        "category": "sports",
+        "location": "中国北京",
+        "notes": "体育纪念日，历史上曾被关注体育、旅游板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "体育",
+            "code": "",
+            "notes": "体育产业和赛事"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "纪念活动和旅游"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-10-01",
+        "name": "中华人民共和国成立76周年",
+        "category": "other",
+        "location": "中国",
+        "notes": "国庆日，历史上曾被关注军工、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "军工",
+            "code": "",
+            "notes": "国防和军事展示"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费",
+            "code": "",
+            "notes": "节日消费和活动"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-11-11",
+        "name": "双十一购物节",
+        "category": "other",
+        "location": "中国",
+        "notes": "电商促销日，历史上曾被关注电商、物流、零售板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "电商",
+            "code": "",
+            "notes": "线上销售和促销"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "物流",
+            "code": "",
+            "notes": "快递和配送需求"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "零售",
+            "code": "",
+            "notes": "消费和零售数据"
+          }
+        ]
+      },
+      {
+        "event_date": "2025-12-31",
+        "name": "跨年活动",
+        "category": "other",
+        "location": "全球",
+        "notes": "年末庆祝，历史上曾被关注旅游、消费板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "旅游",
+            "code": "",
+            "notes": "跨年出行和旅游"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费",
+            "code": "",
+            "notes": "节日消费和娱乐"
+          }
+        ]
+      },
+      {
+        "event_date": "2026-01-08",
+        "name": "CES 2026",
+        "category": "expo",
+        "location": "美国拉斯维加斯",
+        "notes": "消费电子展，历史上曾被关注科技、消费电子板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "消费电子",
+            "code": "",
+            "notes": "新产品发布和行业趋势"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "人工智能",
+            "code": "",
+            "notes": "AI技术应用展示"
+          }
+        ]
+      },
+      {
+        "event_date": "2026-03-05",
+        "name": "2026年全国两会",
+        "category": "policy",
+        "location": "中国北京",
+        "notes": "全国人民代表大会和中国人民政治协商会议，历史上曾被关注政策相关板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "环保",
+            "code": "",
+            "notes": "环保政策预期"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "科技",
+            "code": "",
+            "notes": "科技创新政策支持"
+          }
+        ]
+      },
+      {
+        "event_date": "2026-04-01",
+        "name": "愚人节",
+        "category": "other",
+        "location": "全球",
+        "notes": "娱乐节日，历史上曾被关注传媒、娱乐板块",
+        "mappings": [
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "传媒",
+            "code": "",
+            "notes": "娱乐内容和营销"
+          },
+          {
+            "impact_level": "direct",
+            "target_type": "concept",
+            "target_name": "娱乐",
+            "code": "",
+            "notes": "节日相关活动"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "holidays": [
+    {
+      "holiday_date": "2021-02-11",
+      "name": "春节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "A股市场休市，影响消费、旅游、交通等板块",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "旅游服务",
+          "code": "",
+          "notes": "春节假期促进旅游需求"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "白酒",
+          "code": "",
+          "notes": "节日消费带动白酒销售"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "百货",
+          "code": "",
+          "notes": "假期购物活动增加"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "industry",
+          "target_name": "航空",
+          "code": "",
+          "notes": "假期出行需求上升"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2021-10-01",
+      "name": "国庆假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "A股市场休市，影响旅游、消费、娱乐等板块",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "旅游景点",
+          "code": "",
+          "notes": "国庆长假促进旅游"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "酒店餐饮",
+          "code": "",
+          "notes": "假期住宿和餐饮需求增加"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "影视音像",
+          "code": "",
+          "notes": "假期娱乐消费上升"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "industry",
+          "target_name": "公路",
+          "code": "",
+          "notes": "假期交通流量增加"
+        }
+      ]
+    }
+  ],
+  "major_events": [
+    {
+      "event_date": "2021-03-04",
+      "name": "全国两会",
+      "category": "policy",
+      "location": "北京",
+      "notes": "政策窗口期，影响科技、环保、医疗等板块",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "环境保护",
+          "code": "",
+          "notes": "两会强调绿色发展"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "半导体",
+          "code": "",
+          "notes": "政策支持科技创新"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "医疗保健",
+          "code": "",
+          "notes": "两会关注健康议题"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "industry",
+          "target_name": "建筑工程",
+          "code": "",
+          "notes": "基建投资政策预期"
+        }
+      ]
+    },
+    {
+      "event_date": "2021-07-23",
+      "name": "东京奥运会",
+      "category": "sports",
+      "location": "东京",
+      "notes": "国际体育赛事，影响体育用品、传媒等板块",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "体育用品",
+          "code": "",
+          "notes": "奥运会带动体育消费"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "影视音像",
+          "code": "",
+          "notes": "赛事转播和广告收入"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "industry",
+          "target_name": "啤酒",
+          "code": "",
+          "notes": "观赛消费增加"
+        },
+        {
+          "impact_level": "phonetic",
+          "target_type": "stock",
+          "target_name": "安踏体育",
+          "code": "02020",
+          "notes": "作为体育品牌受益"
+        }
+      ]
+    },
+    {
+      "event_date": "2021-12-08",
+      "name": "中央经济工作会议",
+      "category": "policy",
+      "location": "北京",
+      "notes": "政策会议，影响金融、房地产、科技等板块",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "银行",
+          "code": "",
+          "notes": "会议涉及货币政策"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "区域地产",
+          "code": "",
+          "notes": "房地产政策调整预期"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "industry",
+          "target_name": "软件服务",
+          "code": "",
+          "notes": "支持数字经济发展"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "industry",
+          "target_name": "证券",
+          "code": "",
+          "notes": "资本市场政策影响"
+        }
+      ]
+    }
+  ]
+}

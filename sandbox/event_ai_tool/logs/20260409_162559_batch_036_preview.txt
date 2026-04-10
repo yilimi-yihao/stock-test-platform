@@ -1,0 +1,99 @@
+范围: 2024-07-01 ~ 2024-12-31  (第6年下半年第3次)
+
+[!] 格式/行业问题 (1 条):
+    节假日[儿童节] target_type=None 非法
+
+=== 节假日 (15 条) ===
+
+  [2024-07-01] 建党节  休市=False
+
+  [2024-08-01] 建军节  休市=False
+
+  [2024-09-10] 教师节  休市=False
+     -> [direct/industry rel=0.60] 文教休闲
+
+  [2024-08-10] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 百货
+
+  [2024-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.70] 食品
+     -> [direct/industry rel=0.70] 白酒
+
+  [2024-10-07] 重阳节  休市=False
+     -> [direct/industry rel=0.60] 医疗保健
+
+  [2024-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.90] 仓储物流
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 食品
+
+  [2024-11-28] 美国感恩节  休市=False
+     -> [indirect/industry rel=0.40] 食品
+
+  [2024-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 仓储物流
+
+  [2024-12-21] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+     -> [direct/industry rel=0.60] 白酒
+
+  [2024-12-25] 圣诞节  休市=False
+     -> [indirect/industry rel=0.40] 影视音像
+     -> [direct/industry rel=0.60] 百货
+
+  [2024-06-01] 儿童节  休市=False
+     -> [phonetic/industry rel=0.50] 文教休闲
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/None rel=0.60] 食品
+
+  [2024-06-18] 618购物节  休市=False
+     -> [direct/industry rel=0.90] 仓储物流
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 服饰
+
+  [2024-05-18] 518博物馆日  休市=False
+     -> [direct/industry rel=0.60] 旅游景点
+
+  [2024-03-08] 妇女节  休市=False
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 百货
+
+
+=== 重大事件 (6 条) ===
+
+  [2024-07-26] 巴黎奥运会  [sports]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 影视音像
+     -> [indirect/industry rel=0.50] 食品
+
+  [2024-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 食品
+     -> [indirect/industry rel=0.60] 仓储物流
+
+  [2024-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 电气设备
+     -> [indirect/industry rel=0.60] 航空
+
+  [2024-12-10] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.80] 证券
+     -> [indirect/industry rel=0.70] 建筑工程
+
+  [2024-09-18] FOMC议息  [policy]
+     -> [direct/industry rel=0.80] 黄金
+     -> [indirect/industry rel=0.70] 银行
+     -> [indirect/industry rel=0.60] 证券
+
+  [2024-07-09] 世界人工智能大会  [expo]
+     -> [direct/industry rel=0.90] 软件服务
+     -> [direct/industry rel=0.80] 半导体
+     -> [indirect/industry rel=0.70] 通信设备

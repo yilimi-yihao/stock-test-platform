@@ -1,0 +1,610 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2025-01-01",
+            "name": "元旦假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "元旦假期通常带动旅游、消费板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "假期旅游需求增加"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日消费提升"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费增长"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "节日宴请和礼品需求"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-01-28",
+            "name": "春节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "春节长假对消费、旅游、交通板块有显著影响",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "春节旅游高峰"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "春节购物消费激增"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "春节宴请和礼品核心品类"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "空运",
+                    "code": "",
+                    "notes": "春运期间航空需求增加"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-04-04",
+            "name": "清明节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "清明假期带动短途旅游和祭祀相关消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "短途旅游需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "祭祀和家庭聚餐消费"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-05-01",
+            "name": "劳动节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "劳动节假期促进旅游和零售消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "假期旅游需求"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日购物消费"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-06-02",
+            "name": "端午节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "端午节假期带动食品和旅游板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "粽子等节日食品销售"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "短途旅游需求"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-09-30",
+            "name": "中秋节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "中秋节假期促进食品、白酒和旅游消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "月饼等节日食品销售"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "中秋宴请和礼品需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "家庭旅游活动"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2025-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "国庆长假对旅游、消费、交通板块有重大影响",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "国庆旅游旺季"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "黄金周购物消费"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "节日宴请和礼品需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "空运",
+                    "code": "",
+                    "notes": "长假航空出行增加"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-01-01",
+            "name": "元旦假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "元旦假期带动旅游、消费板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "假期旅游需求增加"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日消费提升"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-02-17",
+            "name": "春节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "春节长假对消费、旅游、交通板块有显著影响",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "春节旅游高峰"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "春节购物消费激增"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "春节宴请和礼品核心品类"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "空运",
+                    "code": "",
+                    "notes": "春运期间航空需求增加"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-04-05",
+            "name": "清明节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "清明假期带动短途旅游和祭祀相关消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "短途旅游需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "祭祀和家庭聚餐消费"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-05-01",
+            "name": "劳动节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "劳动节假期促进旅游和零售消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "假期旅游需求"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日购物消费"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-06-20",
+            "name": "端午节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "端午节假期带动食品和旅游板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "粽子等节日食品销售"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "短途旅游需求"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-09-25",
+            "name": "中秋节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "中秋节假期促进食品、白酒和旅游消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "月饼等节日食品销售"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "中秋宴请和礼品需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "家庭旅游活动"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2026-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "国庆长假对旅游、消费、交通板块有重大影响",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "国庆旅游旺季"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "黄金周购物消费"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "节日宴请和礼品需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "空运",
+                    "code": "",
+                    "notes": "长假航空出行增加"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-01-01",
+            "name": "元旦假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "元旦假期带动旅游、消费板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "假期旅游需求增加"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节假日消费提升"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-02-06",
+            "name": "春节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "春节长假对消费、旅游、交通板块有显著影响",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "春节旅游高峰"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "春节购物消费激增"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "春节宴请和礼品核心品类"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "空运",
+                    "code": "",
+                    "notes": "春运期间航空需求增加"
+                }
+            ]
+        },
+        {
+            "holiday_date": "2027-04-04",
+            "name": "清明节假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "清明假期带动短途旅游和祭祀相关消费",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游服务",
+                    "code": "",
+                    "notes": "短途旅游需求"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "祭祀和家庭聚餐消费"
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2025-03-05",
+            "name": "全国两会",
+            "category": "policy",
+            "location": "北京",
+            "notes": "两会期间政策预期影响多个板块，特别是环保、科技和基建",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "环境保护",
+                    "code": "",
+                    "notes": "环保政策通常成为焦点"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "软件服务",
+                    "code": "",
+                    "notes": "科技和创新政策支持"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建投资可能被提及"
+                }
+            ]
+        },
+        {
+            "event_date": "2025-12-10",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "北京",
+            "notes": "会议定调下一年经济政策，影响金融、房地产和消费板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策调整影响银行业"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "全国地产",
+                    "code": "",
+                    "notes": "房地产政策可能被讨论"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "消费刺激政策预期"
+                }
+            ]
+        },
+        {
+            "event_date": "2026-03-05",
+            "name": "全国两会",
+            "category": "policy",
+            "location": "北京",
+            "notes": "两会期间政策预期影响多个板块，特别是环保、科技和基建",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "环境保护",
+                    "code": "",
+                    "notes": "环保政策通常成为焦点"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "软件服务",
+                    "code": "",
+                    "notes": "科技和创新政策支持"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建投资可能被提及"
+                }
+            ]
+        },
+        {
+            "event_date": "2026-12-10",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "北京",
+            "notes": "会议定调下一年经济政策，影响金融、房地产和消费板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策调整影响银行业"
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "全国地产",
+                    "code": "",
+                    "notes": "房地产政策可能被讨论"
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "消费刺激

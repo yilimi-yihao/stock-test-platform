@@ -1,0 +1,315 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2021-07-01",
+            "name": "建党节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，可能影响相关主题板块",
+            "mappings": []
+        },
+        {
+            "holiday_date": "2021-08-14",
+            "name": "七夕节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，农历七月初七，谐音联想红黄酒",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "红黄酒",
+                    "code": "",
+                    "notes": "谐音鹊桥",
+                    "relevance": 0.2
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-09-21",
+            "name": "中秋节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，休市，可能影响食品、旅游等板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日消费",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "假期出行",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，休市，长假影响旅游、消费等板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "长假旅游需求",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "假期住宿餐饮消费",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行交通需求",
+                    "relevance": 0.8
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-10-14",
+            "name": "重阳节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，可能影响相关主题",
+            "mappings": []
+        },
+        {
+            "holiday_date": "2021-11-11",
+            "name": "双十一",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，购物节，影响物流、百货等",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "购物节物流需求",
+                    "relevance": 0.6
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "零售消费",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-11-25",
+            "name": "美国感恩节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，可选联想食品",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费联想",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-12-12",
+            "name": "双十二",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，购物节",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "购物节物流需求",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-12-21",
+            "name": "冬至",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，必须联想食品",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "羊肉等食品消费",
+                    "relevance": 0.3
+                }
+            ]
+        },
+        {
+            "holiday_date": "2021-12-25",
+            "name": "圣诞节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，可选联想影视音像",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "节日娱乐消费",
+                    "relevance": 0.4
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2021-07-23",
+            "name": "东京奥运会",
+            "category": "sports",
+            "location": "日本东京",
+            "notes": "体育赛事，在时间范围内，影响相关板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "运动服饰需求",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "赛事转播和内容",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2021-09-15",
+            "name": "FOMC议息",
+            "category": "policy",
+            "location": "美国",
+            "notes": "每季度代表性1次，影响全球市场",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "利率政策影响",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "市场波动",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2021-10-15",
+            "name": "广交会",
+            "category": "expo",
+            "location": "中国广州",
+            "notes": "10月秋季广交会，影响贸易相关板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "出口贸易",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "日用化工",
+                    "code": "",
+                    "notes": "消费品展示",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2021-11-05",
+            "name": "进博会",
+            "category": "expo",
+            "location": "中国上海",
+            "notes": "中国国际进口博览会，影响进口相关板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "进口食品展示",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "汽车整车",
+                    "code": "",
+                    "notes": "进口汽车展示",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2021-12-08",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "中国",
+            "notes": "12月召开，定调来年经济政策",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策影响",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建投资政策",
+                    "relevance": 0.8
+                }
+            ]
+        }
+    ]
+}

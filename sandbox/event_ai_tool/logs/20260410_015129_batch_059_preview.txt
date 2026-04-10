@@ -1,0 +1,83 @@
+范围: 2024-07-01 ~ 2024-12-31  (第6年下半年第4次)
+
+=== 节假日 (12 条) ===
+
+  [2024-07-01] 建党节  休市=False
+
+  [2024-08-01] 建军节  休市=False
+
+  [2024-08-04] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 百货
+     -> [direct/industry rel=0.60] 酒店餐饮
+
+  [2024-09-10] 教师节  休市=False
+
+  [2024-09-17] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 白酒
+     -> [direct/industry rel=0.70] 旅游景点
+     -> [direct/industry rel=0.60] 航空
+
+  [2024-10-01] 国庆节  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.70] 酒店餐饮
+     -> [direct/industry rel=0.60] 百货
+
+  [2024-10-11] 重阳节  休市=False
+     -> [direct/industry rel=0.70] 医疗保健
+     -> [direct/industry rel=0.50] 食品
+
+  [2024-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.90] 仓储物流
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 超市连锁
+
+  [2024-11-28] 美国感恩节  休市=False
+     -> [indirect/industry rel=0.40] 食品
+     -> [indirect/industry rel=0.30] 仓储物流
+
+  [2024-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.80] 仓储物流
+     -> [direct/industry rel=0.70] 百货
+     -> [direct/industry rel=0.60] 服饰
+
+  [2024-12-21] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+     -> [direct/industry rel=0.50] 食品
+
+  [2024-12-25] 圣诞节  休市=False
+     -> [indirect/industry rel=0.40] 影视音像
+     -> [direct/industry rel=0.60] 百货
+     -> [direct/industry rel=0.50] 服饰
+
+
+=== 重大事件 (5 条) ===
+
+  [2024-07-26] 巴黎奥运会  [sports]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 影视音像
+     -> [direct/industry rel=0.60] 旅游景点
+
+  [2024-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 电气设备
+     -> [direct/industry rel=0.60] 日用化工
+
+  [2024-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.70] 汽车整车
+     -> [direct/industry rel=0.60] 医疗保健
+
+  [2024-12-10] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.80] 证券
+     -> [direct/industry rel=0.70] 建筑工程
+
+  [2024-12-18] FOMC议息  [policy]
+     -> [direct/industry rel=0.80] 黄金
+     -> [direct/industry rel=0.70] 银行
+     -> [direct/industry rel=0.60] 证券

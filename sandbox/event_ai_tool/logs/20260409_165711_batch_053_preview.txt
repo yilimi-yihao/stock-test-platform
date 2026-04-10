@@ -1,0 +1,66 @@
+范围: 2027-07-01 ~ 2027-12-31  (第9年下半年第2次)
+
+=== 节假日 (11 条) ===
+
+  [2027-07-01] 香港回归纪念日  休市=False
+     -> [direct/industry rel=0.60] 旅游景点
+
+  [2027-07-07] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.70] 服饰
+
+  [2027-08-01] 建军节  休市=False
+     -> [indirect/industry rel=0.40] 航空
+
+  [2027-09-10] 教师节  休市=False
+     -> [direct/industry rel=0.60] 文教休闲
+
+  [2027-09-21] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 旅游服务
+
+  [2027-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.95] 旅游景点
+     -> [direct/industry rel=0.90] 酒店餐饮
+     -> [direct/industry rel=0.85] 航空
+
+  [2027-10-28] 重阳节  休市=False
+     -> [direct/industry rel=0.50] 食品
+
+  [2027-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.90] 百货
+     -> [indirect/industry rel=0.60] 仓储物流
+
+  [2027-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.70] 超市连锁
+
+  [2027-12-21] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+
+  [2027-12-25] 圣诞节  休市=False
+     -> [indirect/industry rel=0.40] 影视音像
+     -> [direct/industry rel=0.60] 服饰
+
+
+=== 重大事件 (6 条) ===
+
+  [2027-09-01] 开学季  [other]
+     -> [direct/industry rel=0.70] 文教休闲
+
+  [2027-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [indirect/industry rel=0.60] 航空
+
+  [2027-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.85] 食品
+     -> [indirect/industry rel=0.70] 仓储物流
+
+  [2027-11-25] 美国感恩节  [other]
+     -> [indirect/industry rel=0.40] 食品
+
+  [2027-12-01] 世界艾滋病日  [other]
+     -> [direct/industry rel=0.60] 医疗保健
+
+  [2027-12-15] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [indirect/industry rel=0.80] 证券

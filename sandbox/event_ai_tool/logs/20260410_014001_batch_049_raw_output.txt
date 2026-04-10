@@ -1,0 +1,403 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2023-07-01",
+            "name": "建党节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "非交易日节日，市场正常交易",
+            "mappings": []
+        },
+        {
+            "holiday_date": "2023-08-22",
+            "name": "七夕节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "农历七月初七，交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "红黄酒",
+                    "code": "",
+                    "notes": "谐音鹊桥，传统节日消费",
+                    "relevance": 0.2
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "节日礼品和约会消费",
+                    "relevance": 0.6
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "餐饮和住宿需求增加",
+                    "relevance": 0.5
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-09-29",
+            "name": "中秋节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，市场休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "月饼等节日食品消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "白酒",
+                    "code": "",
+                    "notes": "节日宴请和礼品需求",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "短途旅游和家庭出游",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-10-01",
+            "name": "国庆假期",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，市场休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "长假旅游高峰",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行需求激增",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "住宿和餐饮消费增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "购物和消费活动",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "假期娱乐消费",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-10-23",
+            "name": "重阳节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "老年健康关注",
+                    "relevance": 0.5
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-11-11",
+            "name": "双十一",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，购物节",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求大幅增加",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "零售销售高峰",
+                    "relevance": 0.85
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "软件服务",
+                    "code": "",
+                    "notes": "电商平台和技术支持",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "服装类商品热销",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-11-23",
+            "name": "美国感恩节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，美国市场休市可能影响A股",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "可选联想，节日食品消费",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-12-12",
+            "name": "双十二",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日，购物节",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "零售促销活动",
+                    "relevance": 0.75
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-12-22",
+            "name": "冬至",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "羊肉等传统食品消费",
+                    "relevance": 0.3
+                }
+            ]
+        },
+        {
+            "holiday_date": "2023-12-25",
+            "name": "圣诞节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "交易日节日",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "可选联想，节日娱乐消费",
+                    "relevance": 0.4
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日购物和礼品",
+                    "relevance": 0.5
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2023-07-14",
+            "name": "FOMC议息",
+            "category": "policy",
+            "location": "美国",
+            "notes": "美联储货币政策会议，影响全球市场",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "利率变动影响银行业",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "市场波动和投资情绪",
+                    "relevance": 0.6
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "黄金",
+                    "code": "",
+                    "notes": "避险资产需求变化",
+                    "relevance": 0.5
+                }
+            ]
+        },
+        {
+            "event_date": "2023-10-15",
+            "name": "广交会",
+            "category": "expo",
+            "location": "广州",
+            "notes": "秋季广交会，国际贸易盛会",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "纺织品和服装出口",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "电气设备",
+                    "code": "",
+                    "notes": "机电产品贸易",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "商务出行增加",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2023-11-05",
+            "name": "进博会",
+            "category": "expo",
+            "location": "上海",
+            "notes": "中国国际进口博览会",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "进口商品零售机会",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "进口食品展示和贸易",
+                    "relevance": 0.75
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流和供应链支持",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2023-12-11",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "北京",
+            "notes": "年度重要经济政策会议",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策和经济调控",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建和房地产政策",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "汽车整车",
+                    "code": "",
+                    "notes": "消费和产业政策影响",
+                    "relevance": 0.7
+                }
+            ]
+        }
+    ]
+}

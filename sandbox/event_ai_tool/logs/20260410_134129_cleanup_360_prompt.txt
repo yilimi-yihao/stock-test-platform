@@ -1,0 +1,58 @@
+你是A股事件库数据清理助手。请检查以下事件/节假日记录，识别明显错误、时间不对齐、同年重复同一节日/事件、或语义高度重复导致应删除的候选项。
+
+要求：
+1. 只输出 JSON 对象，不要解释文本。
+2. 只返回建议删除的候选项；如果没有问题，返回 {"candidates":[]}。
+3. reason 必须简短明确，说明为什么应删除该条。
+4. 对于重复项，优先保留更合理/更早的那一条，其余列为候选删除。
+5. 不要猜测数据库外的信息；只能根据常识和给定记录判断明显问题。
+
+输出格式：
+{
+  "candidates": [
+    {"type":"节假日","id":123,"reason":"2027年重复重阳节，疑似错误重复"},
+    {"type":"事件","id":456,"reason":"与同年同主题事件高度重复，保留另一条即可"}
+  ]
+}
+
+待检查记录：
+- type=事件; id=244; date=2024-09-18; name=FOMC议息会议; category=policy; mappings=
+- type=事件; id=257; date=2024-09-18; name=FOMC议息; category=policy; mappings=
+- type=事件; id=249; date=2024-09-05; name=FOMC议息会议; category=policy; mappings=
+- type=事件; id=566; date=2024-09-04; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=557; date=2024-09-04; name=FOMC议息; category=policy; mappings=
+- type=事件; id=238; date=2024-07-26; name=巴黎奥运会; category=sports; mappings=
+- type=事件; id=243; date=2024-07-26; name=巴黎奥运会开幕; category=sports; mappings=
+- type=事件; id=258; date=2024-07-09; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=233; date=2024-06-20; name=FOMC议息; category=policy; mappings=
+- type=事件; id=551; date=2024-06-15; name=FOMC议息; category=policy; mappings=
+- type=事件; id=547; date=2024-06-12; name=FOMC议息; category=policy; mappings=
+- type=事件; id=539; date=2024-06-01; name=FOMC议息; category=policy; mappings=
+- type=事件; id=232; date=2024-05-20; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=231; date=2024-04-15; name=广交会; category=expo; mappings=
+- type=事件; id=230; date=2024-03-05; name=全国两会; category=policy; mappings=
+- type=事件; id=221; date=2023-12-11; name=中央经济工作会议; category=policy; mappings=
+- type=事件; id=220; date=2023-11-05; name=进博会; category=expo; mappings=
+- type=事件; id=219; date=2023-10-15; name=广交会; category=expo; mappings=
+- type=事件; id=48; date=2023-09-23; name=杭州亚运会; category=sports; mappings=
+- type=事件; id=222; date=2023-07-26; name=FOMC议息; category=policy; mappings=
+- type=事件; id=218; date=2023-07-23; name=FOMC议息; category=policy; mappings=
+- type=事件; id=510; date=2023-07-14; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=528; date=2023-07-14; name=FOMC议息; category=policy; mappings=
+- type=事件; id=524; date=2023-07-05; name=FOMC议息; category=policy; mappings=
+- type=事件; id=498; date=2023-05-18; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=212; date=2023-05-06; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=213; date=2023-05-03; name=FOMC议息; category=policy; mappings=
+- type=事件; id=508; date=2023-05-03; name=FOMC议息会议; category=policy; mappings=
+- type=事件; id=500; date=2023-05-02; name=FOMC议息; category=policy; mappings=
+- type=事件; id=209; date=2023-05-01; name=世界人工智能大会; category=expo; mappings=
+- type=事件; id=207; date=2023-05-01; name=FOMC议息; category=policy; mappings=
+- type=事件; id=208; date=2023-04-15; name=广交会; category=expo; mappings=
+- type=事件; id=206; date=2023-03-05; name=全国两会; category=policy; mappings=
+- type=事件; id=210; date=2023-03-04; name=全国两会; category=policy; mappings=
+- type=事件; id=194; date=2022-12-20; name=中央经济工作会议; category=policy; mappings=
+- type=事件; id=193; date=2022-12-15; name=FOMC议息; category=policy; mappings=
+- type=事件; id=199; date=2022-12-15; name=中央经济工作会议; category=policy; mappings=
+- type=事件; id=192; date=2022-11-24; name=美国感恩节; category=other; mappings=
+- type=事件; id=47; date=2022-11-20; name=卡塔尔世界杯; category=sports; mappings=
+- type=事件; id=198; date=2022-11-20; name=世界杯; category=sports; mappings=

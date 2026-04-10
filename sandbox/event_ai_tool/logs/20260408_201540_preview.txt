@@ -1,0 +1,41 @@
+范围: 2021-01-08 ~ 2022-04-08
+
+=== 节假日 (2 条) ===
+
+  [2021-02-11] 春节假期  休市=True
+     A股市场休市，影响消费、旅游、交通等板块
+     -> [direct/industry] 旅游服务  春节假期促进旅游需求
+     -> [direct/industry] 白酒  节日消费带动白酒销售
+     -> [direct/industry] 百货  假期购物活动增加
+     -> [indirect/industry] 航空  假期出行需求上升
+
+  [2021-10-01] 国庆假期  休市=True
+     A股市场休市，影响旅游、消费、娱乐等板块
+     -> [direct/industry] 旅游景点  国庆长假促进旅游
+     -> [direct/industry] 酒店餐饮  假期住宿和餐饮需求增加
+     -> [direct/industry] 影视音像  假期娱乐消费上升
+     -> [indirect/industry] 公路  假期交通流量增加
+
+
+=== 重大事件 (3 条) ===
+
+  [2021-03-04] 全国两会  [policy]  北京
+     政策窗口期，影响科技、环保、医疗等板块
+     -> [direct/industry] 环境保护  两会强调绿色发展
+     -> [direct/industry] 半导体  政策支持科技创新
+     -> [direct/industry] 医疗保健  两会关注健康议题
+     -> [indirect/industry] 建筑工程  基建投资政策预期
+
+  [2021-07-23] 东京奥运会  [sports]  东京
+     国际体育赛事，影响体育用品、传媒等板块
+     -> [direct/concept] 体育用品  奥运会带动体育消费
+     -> [direct/industry] 影视音像  赛事转播和广告收入
+     -> [indirect/industry] 啤酒  观赛消费增加
+     -> [phonetic/stock] 安踏体育  作为体育品牌受益
+
+  [2021-12-08] 中央经济工作会议  [policy]  北京
+     政策会议，影响金融、房地产、科技等板块
+     -> [direct/industry] 银行  会议涉及货币政策
+     -> [direct/industry] 区域地产  房地产政策调整预期
+     -> [direct/industry] 软件服务  支持数字经济发展
+     -> [indirect/industry] 证券  资本市场政策影响

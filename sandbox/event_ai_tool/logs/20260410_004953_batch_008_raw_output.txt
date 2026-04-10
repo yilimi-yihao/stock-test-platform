@@ -1,0 +1,364 @@
+{
+    "holidays": [
+        {
+            "holiday_date": "2019-07-01",
+            "name": "香港回归纪念日",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "香港市场休市，A股正常交易",
+            "mappings": []
+        },
+        {
+            "holiday_date": "2019-08-01",
+            "name": "建军节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "军事相关概念可能受关注",
+            "mappings": []
+        },
+        {
+            "holiday_date": "2019-08-07",
+            "name": "七夕节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "中国传统情人节，农历七月初七",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "红黄酒",
+                    "code": "",
+                    "notes": "谐音'鹊桥'联想",
+                    "relevance": 0.2
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "节日消费带动服装销售",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日促销活动",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-09-13",
+            "name": "中秋节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "法定假日，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "月饼等节日食品消费",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "中秋假期旅游需求",
+                    "relevance": 0.8
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-10-01",
+            "name": "国庆节",
+            "market_scope": "CN",
+            "is_trading_closed": true,
+            "notes": "国庆假期，A股休市",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "旅游景点",
+                    "code": "",
+                    "notes": "长假旅游高峰",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "航空",
+                    "code": "",
+                    "notes": "出行需求增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "酒店餐饮",
+                    "code": "",
+                    "notes": "住宿和餐饮消费提升",
+                    "relevance": 0.8
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-10-07",
+            "name": "重阳节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "中国传统节日，敬老主题",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "医疗保健",
+                    "code": "",
+                    "notes": "老年健康相关产品关注",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-11-11",
+            "name": "双十一",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "购物节，电商促销",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求激增",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "零售销售提升",
+                    "relevance": 0.8
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-11-28",
+            "name": "美国感恩节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "美国市场休市，可能影响全球市场情绪",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "节日食品消费联想",
+                    "relevance": 0.4
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-12-12",
+            "name": "双十二",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "购物节，电商促销",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "仓储物流",
+                    "code": "",
+                    "notes": "物流需求增加",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "零售销售提升",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-12-22",
+            "name": "冬至",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "传统节气，饮食习俗",
+            "mappings": [
+                {
+                    "impact_level": "phonetic",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "羊肉等冬季食品消费联想",
+                    "relevance": 0.3
+                }
+            ]
+        },
+        {
+            "holiday_date": "2019-12-25",
+            "name": "圣诞节",
+            "market_scope": "CN",
+            "is_trading_closed": false,
+            "notes": "西方节日，消费主题",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "影视音像",
+                    "code": "",
+                    "notes": "节日娱乐消费",
+                    "relevance": 0.4
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "百货",
+                    "code": "",
+                    "notes": "节日促销活动",
+                    "relevance": 0.6
+                }
+            ]
+        }
+    ],
+    "major_events": [
+        {
+            "event_date": "2019-07-22",
+            "name": "科创板开市",
+            "category": "policy",
+            "location": "上海",
+            "notes": "科创板首批公司上市，影响科技板块",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "证券",
+                    "code": "",
+                    "notes": "券商业务受益",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "半导体",
+                    "code": "",
+                    "notes": "科技股关注度提升",
+                    "relevance": 0.8
+                }
+            ]
+        },
+        {
+            "event_date": "2019-09-18",
+            "name": "FOMC议息会议",
+            "category": "economy",
+            "location": "美国",
+            "notes": "美联储利率决策，影响全球市场",
+            "mappings": [
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "黄金",
+                    "code": "",
+                    "notes": "避险情绪可能推高金价",
+                    "relevance": 0.7
+                },
+                {
+                    "impact_level": "indirect",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "利率变动影响银行业",
+                    "relevance": 0.6
+                }
+            ]
+        },
+        {
+            "event_date": "2019-10-15",
+            "name": "广交会",
+            "category": "expo",
+            "location": "广州",
+            "notes": "秋季广交会，外贸相关",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "服饰",
+                    "code": "",
+                    "notes": "纺织品出口展示",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "电气设备",
+                    "code": "",
+                    "notes": "机电产品贸易",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2019-11-05",
+            "name": "进博会",
+            "category": "expo",
+            "location": "上海",
+            "notes": "中国国际进口博览会",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "食品",
+                    "code": "",
+                    "notes": "进口食品展示",
+                    "relevance": 0.8
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "汽车整车",
+                    "code": "",
+                    "notes": "进口汽车相关",
+                    "relevance": 0.7
+                }
+            ]
+        },
+        {
+            "event_date": "2019-12-10",
+            "name": "中央经济工作会议",
+            "category": "policy",
+            "location": "北京",
+            "notes": "定调2020年经济政策",
+            "mappings": [
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "银行",
+                    "code": "",
+                    "notes": "货币政策影响",
+                    "relevance": 0.9
+                },
+                {
+                    "impact_level": "direct",
+                    "target_type": "industry",
+                    "target_name": "建筑工程",
+                    "code": "",
+                    "notes": "基建投资可能受关注",
+                    "relevance": 0.8
+                }
+            ]
+        }
+    ]
+}

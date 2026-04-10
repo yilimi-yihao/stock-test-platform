@@ -1,0 +1,363 @@
+{
+  "holidays": [
+    {
+      "holiday_date": "2025-01-01",
+      "name": "元旦假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "元旦假期期间，旅游、餐饮、零售等消费板块曾受益于节日消费需求提升。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "假期出行需求增加"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "餐饮",
+          "code": "",
+          "notes": "节日聚餐消费活跃"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "零售",
+          "code": "",
+          "notes": "节日购物需求增长"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2025-02-17",
+      "name": "春节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "春节长假期间，旅游、影视、白酒等板块历史上曾被关注，受益于返乡、出行和节日消费。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "春运和假期旅游高峰"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "影视",
+          "code": "",
+          "notes": "春节档电影票房提振"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "白酒",
+          "code": "",
+          "notes": "节日宴请和礼品需求"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2025-04-04",
+      "name": "清明节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "清明节假期期间，旅游、交通等板块曾受益于短途出行和祭扫活动。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "春游和短途旅行需求"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "交通",
+          "code": "",
+          "notes": "出行客流增加"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2025-05-01",
+      "name": "劳动节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "劳动节假期期间，旅游、零售等消费板块曾受益于假期消费和出行活动。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "假期旅游需求释放"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "零售",
+          "code": "",
+          "notes": "节日促销和消费"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2025-06-07",
+      "name": "端午节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "端午节假期期间，食品饮料、旅游等板块历史上曾被关注，受益于节日消费和短途出行。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "食品饮料",
+          "code": "",
+          "notes": "粽子等节日食品销售"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "假期出行需求"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2025-09-29",
+      "name": "中秋节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "中秋节假期期间，食品饮料、零售等板块曾受益于节日礼品和家庭消费。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "食品饮料",
+          "code": "",
+          "notes": "月饼等节日食品热销"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "零售",
+          "code": "",
+          "notes": "节日购物需求"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2025-10-01",
+      "name": "国庆假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "国庆长假期间，旅游、影视、交通等板块历史上曾被关注，受益于长假出行和消费活动。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "黄金周旅游高峰"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "影视",
+          "code": "",
+          "notes": "国庆档电影票房提振"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "交通",
+          "code": "",
+          "notes": "出行客流大幅增加"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2026-01-01",
+      "name": "元旦假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "元旦假期期间，消费板块如旅游、餐饮曾受益于节日需求。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "假期出行消费"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "餐饮",
+          "code": "",
+          "notes": "节日聚餐活跃"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2026-02-06",
+      "name": "春节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "春节长假期间，旅游、白酒、影视等板块历史上曾被关注，受益于传统节日消费和娱乐需求。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "春运和假期旅游"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "白酒",
+          "code": "",
+          "notes": "节日宴请和礼品"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "影视",
+          "code": "",
+          "notes": "春节档电影提振"
+        }
+      ]
+    }
+  ],
+  "major_events": [
+    {
+      "event_date": "2025-03-05",
+      "name": "全国两会",
+      "category": "policy",
+      "location": "北京",
+      "notes": "两会期间，政策预期曾带动相关板块关注，如环保、科技、农业等。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "环保",
+          "code": "",
+          "notes": "绿色发展政策预期"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "科技",
+          "code": "",
+          "notes": "创新驱动政策支持"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "农业",
+          "code": "",
+          "notes": "乡村振兴议题关注"
+        }
+      ]
+    },
+    {
+      "event_date": "2025-07-14",
+      "name": "2025年世界游泳锦标赛",
+      "category": "sports",
+      "location": "新加坡",
+      "notes": "国际体育赛事期间，体育产业、传媒等板块历史上曾被关注。",
+      "mappings": [
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "体育产业",
+          "code": "",
+          "notes": "赛事带动体育消费"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "传媒",
+          "code": "",
+          "notes": "赛事转播和广告"
+        }
+      ]
+    },
+    {
+      "event_date": "2025-10-20",
+      "name": "2025年世界互联网大会",
+      "category": "expo",
+      "location": "乌镇",
+      "notes": "博览会期间，科技、网络安全等板块曾受益于行业热点和展示。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "科技",
+          "code": "",
+          "notes": "互联网创新展示"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "网络安全",
+          "code": "",
+          "notes": "数据安全议题关注"
+        }
+      ]
+    },
+    {
+      "event_date": "2025-12-10",
+      "name": "中央经济工作会议",
+      "category": "economy",
+      "location": "北京",
+      "notes": "政策会议窗口期间，基建、消费等板块历史上曾被关注，受益于宏观经济政策预期。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "基建",
+          "code": "",
+          "notes": "稳增长政策预期"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "消费",
+          "code": "",
+          "notes": "内需提振政策关注"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-03-05",
+      "name": "全国两会",
+      "category": "policy",
+      "location": "北京",
+      "notes": "两会期间，新能源、医疗等板块曾受益于政策议题和规划讨论。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "新能源",
+          "code": "",
+          "notes": "碳中和政策推进"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "医疗",
+          "code": "",
+          "notes": "健康中国议题关注"
+        }
+      ]
+    }
+  ]
+}

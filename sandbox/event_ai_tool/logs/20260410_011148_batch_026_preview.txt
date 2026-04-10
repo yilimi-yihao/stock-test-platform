@@ -1,0 +1,48 @@
+范围: 2021-07-01 ~ 2021-12-31  (第3年下半年第1次)
+
+=== 节假日 (7 条) ===
+
+  [2021-07-01] 建党节  休市=False
+     -> [direct/industry rel=0.60] 影视音像
+
+  [2021-08-14] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 酒店餐饮
+
+  [2021-09-21] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 旅游景点
+
+  [2021-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.80] 酒店餐饮
+
+  [2021-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.90] 仓储物流
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 服饰
+
+  [2021-12-21] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+     -> [direct/industry rel=0.60] 酒店餐饮
+
+  [2021-12-25] 圣诞节  休市=False
+     -> [direct/industry rel=0.40] 影视音像
+     -> [direct/industry rel=0.60] 百货
+
+
+=== 重大事件 (3 条) ===
+
+  [2021-07-23] 东京奥运会  [sports]
+     -> [direct/industry rel=0.80] 影视音像
+     -> [direct/industry rel=0.70] 服饰
+
+  [2021-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.80] 仓储物流
+     -> [direct/industry rel=0.70] 百货
+
+  [2021-12-08] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.80] 证券

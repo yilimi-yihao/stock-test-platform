@@ -1,0 +1,56 @@
+范围: 2019-07-01 ~ 2019-12-31  (第1年下半年第4次)
+
+=== 节假日 (9 条) ===
+
+  [2019-07-01] 建党节  休市=False
+
+  [2019-08-07] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+
+  [2019-09-13] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 白酒
+     -> [direct/industry rel=0.70] 旅游景点
+
+  [2019-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.70] 百货
+
+  [2019-10-07] 重阳节  休市=False
+
+  [2019-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.60] 仓储物流
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.80] 服饰
+
+  [2019-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2019-12-22] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+
+  [2019-12-25] 圣诞节  休市=False
+     -> [indirect/industry rel=0.40] 影视音像
+
+
+=== 重大事件 (4 条) ===
+
+  [2019-12-10] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.80] 证券
+     -> [direct/industry rel=0.70] 建筑工程
+
+  [2019-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 仓储物流
+
+  [2019-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 电气设备
+
+  [2019-09-18] FOMC议息  [policy]
+     -> [direct/industry rel=0.80] 黄金
+     -> [direct/industry rel=0.70] 银行

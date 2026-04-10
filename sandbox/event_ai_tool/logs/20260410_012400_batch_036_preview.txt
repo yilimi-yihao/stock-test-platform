@@ -1,0 +1,78 @@
+范围: 2022-07-01 ~ 2022-12-31  (第4年下半年第1次)
+
+=== 节假日 (11 条) ===
+
+  [2022-07-01] 香港回归纪念日  休市=False
+
+  [2022-07-07] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [indirect/industry rel=0.60] 服饰
+     -> [indirect/industry rel=0.50] 酒店餐饮
+
+  [2022-08-04] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [indirect/industry rel=0.60] 服饰
+     -> [indirect/industry rel=0.50] 酒店餐饮
+
+  [2022-09-10] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [indirect/industry rel=0.70] 白酒
+
+  [2022-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.95] 旅游景点
+     -> [direct/industry rel=0.90] 航空
+     -> [direct/industry rel=0.85] 酒店餐饮
+     -> [indirect/industry rel=0.70] 百货
+
+  [2022-10-04] 重阳节  休市=False
+     -> [indirect/industry rel=0.50] 医疗保健
+
+  [2022-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.90] 仓储物流
+     -> [direct/industry rel=0.85] 百货
+     -> [indirect/industry rel=0.60] 软件服务
+
+  [2022-11-24] 美国感恩节  休市=False
+     -> [phonetic/industry rel=0.40] 食品
+     -> [indirect/industry rel=0.30] 航空
+
+  [2022-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.80] 仓储物流
+     -> [direct/industry rel=0.75] 百货
+
+  [2022-12-22] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+     -> [indirect/industry rel=0.40] 白酒
+
+  [2022-12-25] 圣诞节  休市=False
+     -> [phonetic/industry rel=0.40] 影视音像
+     -> [indirect/industry rel=0.50] 服饰
+
+
+=== 重大事件 (5 条) ===
+
+  [2022-07-05] FOMC议息会议  [policy]
+     -> [direct/industry rel=0.80] 银行
+     -> [direct/industry rel=0.75] 证券
+     -> [indirect/industry rel=0.60] 黄金
+
+  [2022-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.85] 服饰
+     -> [direct/industry rel=0.80] 电气设备
+     -> [indirect/industry rel=0.50] 航空
+
+  [2022-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.85] 汽车整车
+     -> [indirect/industry rel=0.60] 仓储物流
+
+  [2022-11-20] 世界杯  [sports]
+     -> [direct/industry rel=0.90] 影视音像
+     -> [direct/industry rel=0.85] 啤酒
+     -> [indirect/industry rel=0.50] 旅游服务
+
+  [2022-12-15] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.85] 建筑工程
+     -> [direct/industry rel=0.80] 新型电力

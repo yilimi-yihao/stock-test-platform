@@ -1,0 +1,89 @@
+范围: 2026-01-01 ~ 2026-06-30  (第8年上半年第1次)
+
+=== 节假日 (14 条) ===
+
+  [2026-01-01] 元旦  休市=True
+     -> [direct/industry rel=0.85] 旅游景点
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.75] 百货
+
+  [2026-02-17] 春节  休市=True
+     -> [direct/industry rel=0.95] 白酒
+     -> [direct/industry rel=0.90] 旅游服务
+     -> [direct/industry rel=0.85] 食品
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.70] 服饰
+
+  [2026-04-05] 清明节  休市=True
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [direct/industry rel=0.60] 食品
+
+  [2026-05-01] 劳动节  休市=True
+     -> [direct/industry rel=0.90] 旅游服务
+     -> [direct/industry rel=0.85] 酒店餐饮
+     -> [direct/industry rel=0.80] 航空
+
+  [2026-06-20] 端午节  休市=True
+     -> [direct/industry rel=0.85] 食品
+     -> [direct/industry rel=0.75] 旅游景点
+
+  [2026-03-08] 妇女节  休市=False
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.75] 百货
+
+  [2026-06-01] 儿童节  休市=False
+     -> [direct/industry rel=0.50] 文教休闲
+     -> [direct/industry rel=0.40] 服饰
+
+  [2026-05-18] 518博物馆日  休市=False
+     -> [direct/industry rel=0.60] 旅游景点
+
+  [2026-06-18] 618购物节  休市=False
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.60] 仓储物流
+     -> [direct/industry rel=0.50] 服饰
+
+  [2026-08-20] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.60] 服饰
+     -> [direct/industry rel=0.50] 百货
+
+  [2026-10-11] 重阳节  休市=False
+     -> [direct/industry rel=0.60] 食品
+     -> [direct/industry rel=0.50] 旅游景点
+
+  [2026-12-22] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+     -> [direct/industry rel=0.60] 食品
+
+  [2026-06-01] 高考季  休市=False
+     -> [direct/industry rel=0.70] 文教休闲
+
+  [2026-07-15] 毕业季  休市=False
+     -> [direct/industry rel=0.70] 旅游服务
+     -> [direct/industry rel=0.60] 酒店餐饮
+
+
+=== 重大事件 (4 条) ===
+
+  [2026-03-05] 全国两会  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.85] 证券
+     -> [direct/industry rel=0.80] 建筑工程
+     -> [direct/industry rel=0.75] 医疗保健
+     -> [direct/industry rel=0.70] 新型电力
+
+  [2026-04-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.75] 电气设备
+     -> [direct/industry rel=0.70] 日用化工
+
+  [2026-05-20] 世界人工智能大会  [expo]
+     -> [direct/industry rel=0.90] 软件服务
+     -> [direct/industry rel=0.85] 半导体
+     -> [direct/industry rel=0.80] 通信设备
+
+  [2026-06-15] FOMC议息  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.80] 黄金
+     -> [direct/industry rel=0.75] 证券

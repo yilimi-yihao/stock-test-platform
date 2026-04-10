@@ -1,0 +1,276 @@
+{
+  "holidays": [
+    {
+      "holiday_date": "2026-04-04",
+      "name": "清明节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "预计受益于旅游、交通和消费板块，因假期出行和祭扫活动增加。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "假期出行需求上升"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "交通",
+          "code": "",
+          "notes": "客流增加带动运输服务"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "消费",
+          "code": "",
+          "notes": "零售和餐饮可能受益"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2026-05-01",
+      "name": "劳动节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "预计受益于旅游、娱乐和零售板块，因假期消费和休闲活动增多。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "短途旅行和度假需求增加"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "娱乐",
+          "code": "",
+          "notes": "电影、主题公园等消费上升"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "零售",
+          "code": "",
+          "notes": "购物和餐饮消费可能增长"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2026-06-08",
+      "name": "端午节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "预计受益于食品饮料和旅游板块，因传统节日消费和家庭聚会。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "食品饮料",
+          "code": "",
+          "notes": "粽子等节日食品销售增加"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "短途出行和民俗活动"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "物流",
+          "code": "",
+          "notes": "节日商品配送需求上升"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2026-09-15",
+      "name": "中秋节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "预计受益于食品饮料、零售和旅游板块，因节日礼品消费和家庭团聚。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "食品饮料",
+          "code": "",
+          "notes": "月饼等节日食品热销"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "零售",
+          "code": "",
+          "notes": "礼品和购物消费增加"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "短途探亲和休闲出行"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2026-10-01",
+      "name": "国庆假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "预计受益于旅游、交通和消费板块，因长假出行和消费活动大幅增加。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "国内外旅游需求旺盛"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "交通",
+          "code": "",
+          "notes": "航空、铁路客流高峰"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "消费",
+          "code": "",
+          "notes": "零售、餐饮和娱乐消费增长"
+        }
+      ]
+    },
+    {
+      "holiday_date": "2027-01-28",
+      "name": "春节假期",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "预计受益于消费、旅游和交通板块，因传统节日消费、返乡和出行高峰。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "消费",
+          "code": "",
+          "notes": "年货、礼品和餐饮消费激增"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "春节旅游和探亲出行"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "交通",
+          "code": "",
+          "notes": "春运带动运输服务需求"
+        }
+      ]
+    }
+  ],
+  "major_events": [
+    {
+      "event_date": "2026-07-15",
+      "name": "2026年夏季青年奥运会",
+      "category": "sports",
+      "location": "达喀尔",
+      "notes": "可能被关注于体育、传媒和旅游板块，因国际赛事带动相关消费和投资。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "体育",
+          "code": "",
+          "notes": "赛事赞助、装备和转播需求"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "传媒",
+          "code": "",
+          "notes": "媒体覆盖和广告收入可能增加"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "国际游客和赛事相关出行"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-10-20",
+      "name": "2026年世界博览会",
+      "category": "expo",
+      "location": "大阪",
+      "notes": "预计受益于科技、基建和旅游板块，因博览会展示创新技术和促进国际合作。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "科技",
+          "code": "",
+          "notes": "参展企业和技术展示可能受关注"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "基建",
+          "code": "",
+          "notes": "相关建设和物流服务需求"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "旅游",
+          "code": "",
+          "notes": "国际游客和商务出行增加"
+        }
+      ]
+    },
+    {
+      "event_date": "2027-03-05",
+      "name": "2027年全国两会",
+      "category": "policy",
+      "location": "北京",
+      "notes": "预计受益于政策相关板块如环保、科技和基建，因会议可能发布经济和社会发展政策。",
+      "mappings": [
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "环保",
+          "code": "",
+          "notes": "绿色发展和碳中和政策可能被强调"
+        },
+        {
+          "impact_level": "direct",
+          "target_type": "concept",
+          "target_name": "科技",
+          "code": "",
+          "notes": "创新驱动和产业升级政策"
+        },
+        {
+          "impact_level": "indirect",
+          "target_type": "concept",
+          "target_name": "基建",
+          "code": "",
+          "notes": "基础设施投资计划可能公布"
+        }
+      ]
+    }
+  ]
+}

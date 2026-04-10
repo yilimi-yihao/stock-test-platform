@@ -1,0 +1,16 @@
+生成 2026-04-08 到 2027-04-08 期间，对 A 股市场有板块主题影响的节假日和重大事件。
+（注意：这些是未来预期事件，板块影响描述用预期口吻，如「预计受益」「可能被关注」）
+
+规则：
+- 连续假期（如春节、国庆7天）只记录1条，holiday_date 填假期第一天，is_trading_closed=true
+- 重大事件：国际体育赛事、博览会、政策会议窗口（如两会、中央经济工作会议），每类选最重要的
+- 每条记录的 mappings 最多3条，只列最有代表性的板块/个股
+- 节假日名称用假期总称（如「国庆假期」「春节假期」），而非每天单独列一条
+
+严格输出JSON，不加 markdown 代码块：
+{"holidays":[{"holiday_date":"YYYY-MM-DD","name":"假期名称","market_scope":"CN","is_trading_closed":true,"notes":"板块影响说明","mappings":[{"impact_level":"direct","target_type":"concept","target_name":"板块","code":"","notes":"理由"}]}],"major_events":[{"event_date":"YYYY-MM-DD","name":"事件名称","category":"sports","location":"地点","notes":"板块影响说明","mappings":[{"impact_level":"direct","target_type":"concept","target_name":"板块","code":"","notes":"理由"}]}]}
+
+枚举（严格遵守）：
+- impact_level: direct / indirect / phonetic
+- target_type: concept / stock / sector
+- category: sports / expo / policy / economy / other

@@ -1,0 +1,168 @@
+{
+  "holidays": [
+    {
+      "holiday_date": "2028-01-01",
+      "name": "元旦",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "法定假日，市场休市",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游服务", "code": "", "notes": "假期旅游需求", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "酒店餐饮", "code": "", "notes": "消费和住宿需求", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "百货", "code": "", "notes": "节假日购物", "relevance": 0.7},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "食品", "code": "", "notes": "节日食品消费", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "白酒", "code": "", "notes": "宴饮需求", "relevance": 0.5}
+      ]
+    },
+    {
+      "holiday_date": "2028-01-28",
+      "name": "春节",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "春节假期，市场休市",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游景点", "code": "", "notes": "假期旅游高峰", "relevance": 0.9},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游服务", "code": "", "notes": "旅行和预订服务", "relevance": 0.9},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "酒店餐饮", "code": "", "notes": "餐饮和住宿需求", "relevance": 0.9},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "食品", "code": "", "notes": "节日食品消费", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "白酒", "code": "", "notes": "宴饮和礼品需求", "relevance": 0.8}
+      ]
+    },
+    {
+      "holiday_date": "2028-04-04",
+      "name": "清明节",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "法定假日，市场休市",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游景点", "code": "", "notes": "短途旅游和祭扫出行", "relevance": 0.7},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "航空", "code": "", "notes": "交通需求增加", "relevance": 0.6},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "机场", "code": "", "notes": "客流提升", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "食品", "code": "", "notes": "祭扫相关食品", "relevance": 0.5},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "建筑工程", "code": "", "notes": "弱相关于基建活动", "relevance": 0.3}
+      ]
+    },
+    {
+      "holiday_date": "2028-05-01",
+      "name": "劳动节",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "法定假日，市场休市",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游服务", "code": "", "notes": "假期旅游需求", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "酒店餐饮", "code": "", "notes": "消费和住宿需求", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "百货", "code": "", "notes": "节假日购物", "relevance": 0.7},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "食品", "code": "", "notes": "节日食品消费", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "服饰", "code": "", "notes": "季节性消费", "relevance": 0.5}
+      ]
+    },
+    {
+      "holiday_date": "2028-05-28",
+      "name": "端午节",
+      "market_scope": "CN",
+      "is_trading_closed": true,
+      "notes": "法定假日，市场休市",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "食品", "code": "", "notes": "粽子等节日食品", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游服务", "code": "", "notes": "短途旅游需求", "relevance": 0.7},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "酒店餐饮", "code": "", "notes": "餐饮消费", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "百货", "code": "", "notes": "节假日购物", "relevance": 0.5},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "白酒", "code": "", "notes": "宴饮需求", "relevance": 0.4}
+      ]
+    },
+    {
+      "holiday_date": "2028-03-08",
+      "name": "妇女节",
+      "market_scope": "CN",
+      "is_trading_closed": false,
+      "notes": "交易日节日",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "服饰", "code": "", "notes": "女性消费需求", "relevance": 0.7},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "百货", "code": "", "notes": "零售促销", "relevance": 0.7},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "日用化工", "code": "", "notes": "化妆品和个人护理", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "食品", "code": "", "notes": "礼品和餐饮消费", "relevance": 0.4},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "旅游服务", "code": "", "notes": "弱相关于休闲活动", "relevance": 0.3}
+      ]
+    },
+    {
+      "holiday_date": "2028-06-01",
+      "name": "儿童节",
+      "market_scope": "CN",
+      "is_trading_closed": false,
+      "notes": "交易日节日",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "服饰", "code": "", "notes": "儿童服装消费", "relevance": 0.6},
+        {"impact_level": "phonetic", "target_type": "industry", "target_name": "文教休闲", "code": "", "notes": "谐音联想，教育和娱乐需求", "relevance": 0.5},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "百货", "code": "", "notes": "玩具和礼品零售", "relevance": 0.5},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "食品", "code": "", "notes": "儿童食品消费", "relevance": 0.4},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "旅游景点", "code": "", "notes": "家庭出游活动", "relevance": 0.3}
+      ]
+    },
+    {
+      "holiday_date": "2028-05-18",
+      "name": "518博物馆日",
+      "market_scope": "CN",
+      "is_trading_closed": false,
+      "notes": "交易日节日",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "旅游景点", "code": "", "notes": "博物馆和文化旅游", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "文教休闲", "code": "", "notes": "教育和文化消费", "relevance": 0.5},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "酒店餐饮", "code": "", "notes": "相关旅游消费", "relevance": 0.3},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "食品", "code": "", "notes": "餐饮需求", "relevance": 0.2},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "百货", "code": "", "notes": "弱相关零售", "relevance": 0.1}
+      ]
+    },
+    {
+      "holiday_date": "2028-06-18",
+      "name": "618购物节",
+      "market_scope": "CN",
+      "is_trading_closed": false,
+      "notes": "交易日节日",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "百货", "code": "", "notes": "零售促销和销售", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "超市连锁", "code": "", "notes": "消费品零售", "relevance": 0.7},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "仓储物流", "code": "", "notes": "物流需求增加", "relevance": 0.6},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "服饰", "code": "", "notes": "服装销售", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "通信设备", "code": "", "notes": "电商和支付相关", "relevance": 0.4}
+      ]
+    },
+    {
+      "holiday_date": "2028-06-07",
+      "name": "高考季",
+      "market_scope": "CN",
+      "is_trading_closed": false,
+      "notes": "季节节点，高考期间",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "文教休闲", "code": "", "notes": "教育和培训需求", "relevance": 0.7},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "软件服务", "code": "", "notes": "在线教育工具", "relevance": 0.3},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "食品", "code": "", "notes": "营养品消费", "relevance": 0.2},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "医疗保健", "code": "", "notes": "健康相关产品", "relevance": 0.2},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "旅游服务", "code": "", "notes": "考后旅游预期", "relevance": 0.1}
+      ]
+    }
+  ],
+  "major_events": [
+    {
+      "event_date": "2028-03-05",
+      "name": "全国两会",
+      "category": "policy",
+      "location": "北京",
+      "notes": "年度重要政策会议",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "银行", "code": "", "notes": "金融政策影响", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "证券", "code": "", "notes": "资本市场政策", "relevance": 0.8},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "建筑工程", "code": "", "notes": "基建和房地产政策", "relevance": 0.7},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "新型电力", "code": "", "notes": "能源政策相关", "relevance": 0.6},
+        {"impact_level": "indirect", "target_type": "industry", "target_name": "软件服务", "code": "", "notes": "科技和创新政策", "relevance": 0.5}
+      ]
+    },
+    {
+      "event_date": "2028-03-21",
+      "name": "FOMC议息会议",
+      "category": "policy",
+      "location": "美国",
+      "notes": "美联储议息会议，影响全球金融市场",
+      "mappings": [
+        {"impact_level": "direct", "target_type": "industry", "target_name": "银行", "code": "", "notes": "利率和汇率影响", "relevance": 0.7},
+        {"impact_level": "direct", "target_type": "industry", "target_name": "证券", "code": "", "notes": "资本市场波动", "relevance": 0.7},
+        {"impact_level": "ind

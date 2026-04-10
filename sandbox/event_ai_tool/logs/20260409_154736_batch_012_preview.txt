@@ -1,0 +1,90 @@
+范围: 2020-07-01 ~ 2020-12-31  (第2年下半年第3次)
+
+=== 节假日 (15 条) ===
+
+  [2020-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.95] 旅游景点
+     -> [direct/industry rel=0.90] 酒店餐饮
+     -> [direct/industry rel=0.85] 航空
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.75] 食品
+
+  [2020-10-01] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.85] 白酒
+     -> [direct/industry rel=0.80] 旅游服务
+
+  [2020-10-01] 国庆假期  休市=True
+
+  [2020-06-25] 端午节  休市=True
+     -> [direct/industry rel=0.90] 食品
+     -> [direct/industry rel=0.80] 旅游景点
+
+  [2020-08-25] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 百货
+
+  [2020-06-01] 儿童节  休市=False
+     -> [direct/industry rel=0.50] 文教休闲
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 食品
+
+  [2020-06-18] 618购物节  休市=False
+     -> [direct/industry rel=0.60] 仓储物流
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 服饰
+
+  [2020-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.60] 仓储物流
+     -> [direct/industry rel=0.90] 百货
+     -> [direct/industry rel=0.80] 服饰
+
+  [2020-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2020-12-21] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+     -> [direct/industry rel=0.70] 食品
+
+  [2020-12-25] 圣诞节  休市=False
+     -> [direct/industry rel=0.40] 影视音像
+     -> [direct/industry rel=0.80] 百货
+
+  [2020-11-26] 美国感恩节  休市=False
+     -> [direct/industry rel=0.40] 食品
+
+  [2020-06-01] 高考季  休市=False
+     -> [direct/industry rel=0.70] 文教休闲
+
+  [2020-07-15] 毕业季  休市=False
+     -> [direct/industry rel=0.60] 旅游景点
+     -> [direct/industry rel=0.50] 酒店餐饮
+
+  [2020-09-01] 开学季  休市=False
+     -> [direct/industry rel=0.80] 文教休闲
+     -> [direct/industry rel=0.60] 服饰
+
+
+=== 重大事件 (4 条) ===
+
+  [2020-12-16] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.90] 银行
+     -> [direct/industry rel=0.85] 证券
+     -> [direct/industry rel=0.80] 建筑工程
+
+  [2020-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.80] 百货
+     -> [direct/industry rel=0.70] 食品
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2020-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.80] 服饰
+     -> [direct/industry rel=0.70] 电气设备
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2020-09-29] FOMC议息  [policy]
+     -> [direct/industry rel=0.85] 银行
+     -> [direct/industry rel=0.80] 黄金
+     -> [direct/industry rel=0.75] 证券

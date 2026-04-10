@@ -2,9 +2,9 @@
 
 __version__ = "0.2.0"
 
-from sql_tool.service import SqlToolService
-from sql_tool.database import StockDatabase
 from sql_tool.config import ConfigManager
-from sql_tool.tushare_source import TushareSource
+from sql_tool.services.core import SqlToolService
+from sql_tool.db.stock import StockDatabase
+from sql_tool.sources.tushare import TushareSource
 
 __all__ = ['SqlToolService', 'StockDatabase', 'ConfigManager', 'TushareSource']

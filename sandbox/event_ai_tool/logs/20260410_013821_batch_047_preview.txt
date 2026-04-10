@@ -1,0 +1,61 @@
+范围: 2023-07-01 ~ 2023-12-31  (第5年下半年第2次)
+
+=== 节假日 (10 条) ===
+
+  [2023-07-01] 建党节  休市=False
+
+  [2023-08-22] 七夕节  休市=False
+     -> [phonetic/industry rel=0.20] 红黄酒
+
+  [2023-09-29] 中秋节  休市=True
+     -> [direct/industry rel=0.90] 白酒
+     -> [direct/industry rel=0.80] 食品
+     -> [direct/industry rel=0.70] 旅游景点
+
+  [2023-10-01] 国庆假期  休市=True
+     -> [direct/industry rel=0.90] 旅游景点
+     -> [direct/industry rel=0.80] 航空
+     -> [direct/industry rel=0.80] 酒店餐饮
+     -> [direct/industry rel=0.70] 百货
+
+  [2023-10-23] 重阳节  休市=False
+
+  [2023-11-11] 双十一  休市=False
+     -> [direct/industry rel=0.60] 仓储物流
+     -> [direct/industry rel=0.50] 百货
+
+  [2023-11-23] 美国感恩节  休市=False
+     -> [indirect/industry rel=0.40] 食品
+
+  [2023-12-12] 双十二  休市=False
+     -> [direct/industry rel=0.60] 仓储物流
+
+  [2023-12-22] 冬至  休市=False
+     -> [phonetic/industry rel=0.30] 食品
+
+  [2023-12-25] 圣诞节  休市=False
+     -> [indirect/industry rel=0.40] 影视音像
+
+
+=== 重大事件 (5 条) ===
+
+  [2023-07-23] FOMC议息  [policy]
+     -> [indirect/industry rel=0.70] 银行
+     -> [indirect/industry rel=0.60] 证券
+
+  [2023-09-23] 杭州亚运会  [sports]
+     -> [direct/industry rel=0.80] 旅游景点
+     -> [direct/industry rel=0.70] 酒店餐饮
+     -> [direct/industry rel=0.60] 建筑工程
+
+  [2023-10-15] 广交会  [expo]
+     -> [direct/industry rel=0.70] 服饰
+     -> [direct/industry rel=0.60] 电气设备
+
+  [2023-11-05] 进博会  [expo]
+     -> [direct/industry rel=0.70] 食品
+     -> [direct/industry rel=0.60] 汽车整车
+
+  [2023-12-11] 中央经济工作会议  [policy]
+     -> [direct/industry rel=0.80] 银行
+     -> [direct/industry rel=0.70] 建筑工程

@@ -1,0 +1,6 @@
+=== 写入结果 ===
+[节假日] 春节假期 -> id=44 mappings=4
+[节假日] 国庆假期 -> id=45 mappings=4
+[事件] 全国两会 -> id=32 mappings=4
+[事件] 东京奥运会 -> id=33 mappings=4
+[事件] 中央经济工作会议 -> id=34 mappings=4
