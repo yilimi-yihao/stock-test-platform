@@ -99,7 +99,10 @@ Tushare API 访问，仅在导入/更新时使用。`tushare.py`、`etf.py`、`f
 |------|------|
 | `rebuild_index_csvs.py` | 从 PDF / XLSX 原始公告重建指数成分变化 CSV |
 | `index_change_importer.py` | 读取 CSV，通过本地 API 批量导入 `index_constituents.db` |
+| `import_broker_forecasts.py` | 读取 `resource_data/broker_forecasts`，将券商预测 CSV 批量导入 `index_forecasts.db` |
 | `pdf_extract.py` | PDF 文本提取辅助 |
+
+> `import_broker_forecasts.py` 的定位是**单独辅助工具**，类似 AI 事件提取工具；默认不并入主 GUI 工作流和主 CLI 命令树。
 
 ---
 

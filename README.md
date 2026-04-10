@@ -121,7 +121,8 @@ python main.py api --host 127.0.0.1 --port 8011
 2. GUI 的"股票工作台"页先导入少量股票验证链路
 3. 确认数据库正常后再做全量导入或日常增量更新
 4. 指数成分变化数据：用 `src/sql_tool/tools/index_change_importer.py` 从 CSV 导入，无需 Tushare token
-5. 需要给外部程序供数时，在"API 工具"页或 CLI 启动本地 API
+5. 券商指数预测数据：用 `src/sql_tool/tools/import_broker_forecasts.py` 作为**独立辅助工具**导入
+6. 需要给外部程序供数时，在"API 工具"页或 CLI 启动本地 API
 
 ## GUI 页面说明
 
