@@ -9,6 +9,7 @@ config/settings.json
 .claude/worktrees/
 .claude/settings.local.json
 sandbox/event_ai_tool/logs/
+sandbox/event_ai_tool/config.toml
 src/sql_tool/__pycache__/
 src/sql_tool/tools/__pycache__/
 tests/__pycache__/
